@@ -3,12 +3,9 @@
 **Nome em Inglês:** Multiple Platform Calculation Hub  
 **Nome em Português:** Hub de Cálculos para Múltiplas Plataformas
 
-## Integrantes do Grupo 13
+## Integrantes do Grupo
 
 - Gabriel Loureiro
-- Gabriel Domingos
-- Matheus Bellini
-- Anderson Mello
 
 ## Descrição
 

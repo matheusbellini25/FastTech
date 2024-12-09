@@ -26,6 +26,12 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
     
+    - name: Log in to Docker Hub
+      uses: docker/login-action@v2
+      with:
+        username: ${{ secrets.DOCKERHUB_USERNAME }}
+        password: ${{ secrets.DOCKERHUB_TOKEN }}  
+
     - name: Publish Docker Image
       uses: docker/build-push-action@v3
       with:
@@ -33,5 +39,3 @@ jobs:
         file: ./Dockerfile
         push: true
         tags: ${{ secrets.DOCKERHUB_USERNAME }}/mpcalchub:latest
-        username: ${{ secrets.DOCKERHUB_USERNAME }}
-        password: ${{ secrets.DOCKERHUB_TOKEN }}

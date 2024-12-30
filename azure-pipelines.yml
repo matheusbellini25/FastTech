@@ -3,7 +3,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'ubuntu-latest'
+  name: Self-hosted-docker
 
 variables:
   buildConfiguration: 'Release'

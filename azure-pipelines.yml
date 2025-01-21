@@ -3,7 +3,7 @@ trigger:
 - master
 
 pool:
-  name: Self-hosted-docker
+  name: Default
 
 variables:
   buildConfiguration: 'Release'

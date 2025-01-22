@@ -28,6 +28,7 @@ using MPCalcHub.Domain.Options;
 using MPCalcHub.Domain.Entities;
 using MPCalcHub.Api.Filters;
 using Microsoft.AspNetCore.Mvc.Filters;
+using Prometheus;
 
 var builder = WebApplication.CreateBuilder(args);
 var env = builder.Environment;
@@ -45,6 +46,7 @@ if (string.IsNullOrEmpty(jwtKeyConfig))
     throw new InvalidOperationException("JWT:Key configuration is missing or empty.");
 
 builder.Services.Configure<TokenSettings>(builder.Configuration.GetSection("JWT"));
+builder.WebHost.UseUrls("https://0.0.0.0:5056");
 
 builder.Services.AddAuthentication(o =>
 {
@@ -193,11 +195,8 @@ builder.Services.AddScoped(x => new UserData());
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "MPCalcHub API v1"));
-}
+app.UseSwagger();
+app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "MPCalcHub API 2025"));
 
 using (var scope = app.Services.CreateScope())
 {
@@ -206,6 +205,9 @@ using (var scope = app.Services.CreateScope())
 
     context.Database.Migrate();
 }
+
+app.UseHttpMetrics();
+app.MapMetrics();
 
 app.UseHttpsRedirection();
 app.UseAuthorization();

@@ -13,7 +13,6 @@ RUN dotnet restore
 # Build the project
 RUN dotnet publish -c Release -o out
 
-
 # Use the official .NET 8 runtime image as the runtime environment
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
 
@@ -29,5 +28,4 @@ EXPOSE 5056
 ENV ASPNETCORE_ENVIRONMENT=Docker
 
 # Set the entry point for the container
-# ENTRYPOINT ["dotnet", "MPCalcHub.dll"]
 ENTRYPOINT ["dotnet", "MPCalcHub.Api.dll"]

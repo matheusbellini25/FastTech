@@ -6,6 +6,9 @@
 ## Integrantes do Grupo
 
 - Gabriel Loureiro
+- Gabriel Domingos
+- Matheus Bellini
+- Anderson Mello
 
 ## Descrição
 
@@ -32,6 +35,13 @@ O projeto abordará os seguintes tópicos:
 6. **Autenticação e Autorização**
 7. **Documentação de API**
 8. **Trabalhando com Cache**
+
+## Fase 2
+1. GitHub Actions
+2. Azure Pipelines
+3. Dockerfile
+4. Prometheus
+5. Grafana
 
 ## Estrutura do Projeto
 

@@ -3,7 +3,13 @@
   "WorkspaceRootPath": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Application\\FastTech.Application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Logging\\CustomLoggerProviderConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Domain\\Settings\\MPCalcHubSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Domain\\Constants\\AppConstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Infrastructure\\FastTech.Infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
@@ -13,15 +19,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Infrastructure\\Data\\ApplicationDBContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Domain\\Constants\\AppConstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Domain\\Settings\\MPCalcHubSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Logging\\CustomLoggerProviderConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -58,7 +55,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,37 +71,11 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FastTech.Application.csproj",
-              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Application\\FastTech.Application.csproj",
-              "RelativeDocumentMoniker": "..\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Application\\FastTech.Application.csproj",
-              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Application\\FastTech.Application.csproj",
-              "RelativeToolTip": "..\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Application\\FastTech.Application.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-02T00:45:44.371Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FastTech.Infrastructure.csproj",
-              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Infrastructure\\FastTech.Infrastructure.csproj",
-              "RelativeDocumentMoniker": "..\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Infrastructure\\FastTech.Infrastructure.csproj",
-              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Infrastructure\\FastTech.Infrastructure.csproj",
-              "RelativeToolTip": "..\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Infrastructure\\FastTech.Infrastructure.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-02T00:43:39.162Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Infrastructure\\Data\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "..\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Infrastructure\\Data\\Repositories\\UserRepository.cs",
@@ -115,7 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ApplicationDBContext.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Infrastructure\\Data\\ApplicationDBContext.cs",
               "RelativeDocumentMoniker": "..\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Infrastructure\\Data\\ApplicationDBContext.cs",
@@ -126,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "AppConstants.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Domain\\Constants\\AppConstants.cs",
               "RelativeDocumentMoniker": "..\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Domain\\Constants\\AppConstants.cs",
@@ -137,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "MPCalcHubSettings.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Domain\\Settings\\MPCalcHubSettings.cs",
               "RelativeDocumentMoniker": "..\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Domain\\Settings\\MPCalcHubSettings.cs",
@@ -148,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "CustomLoggerProviderConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Logging\\CustomLoggerProviderConfiguration.cs",
               "RelativeDocumentMoniker": "..\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Logging\\CustomLoggerProviderConfiguration.cs",
@@ -159,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Program.cs",
               "RelativeDocumentMoniker": "..\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Program.cs",
@@ -169,8 +140,23 @@
               "WhenOpened": "2025-07-02T00:07:12.486Z"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
+              "Title": "FastTech.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Infrastructure\\FastTech.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "..\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Infrastructure\\FastTech.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Infrastructure\\FastTech.Infrastructure.csproj",
+              "RelativeToolTip": "..\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Infrastructure\\FastTech.Infrastructure.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-02T00:43:39.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "CustomLoggerProvider.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Logging\\CustomLoggerProvider.cs",
               "RelativeDocumentMoniker": "..\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Logging\\CustomLoggerProvider.cs",
@@ -181,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "UserFilter.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Filters\\UserFilter.cs",
               "RelativeDocumentMoniker": "..\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Filters\\UserFilter.cs",
@@ -192,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "PermissionLevel.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Domain\\Enums\\PermissionLevel.cs",
               "RelativeDocumentMoniker": "..\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Domain\\Enums\\PermissionLevel.cs",
@@ -203,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "ContactConsumerService.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Robots\\RabbitMQ\\ContactConsumerService.cs",
               "RelativeDocumentMoniker": "..\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Robots\\RabbitMQ\\ContactConsumerService.cs",
@@ -214,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "BaseRabbitMQConsumerService.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Robots\\RabbitMQ\\BaseRabbitMQConsumerService.cs",
               "RelativeDocumentMoniker": "..\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Robots\\RabbitMQ\\BaseRabbitMQConsumerService.cs",
@@ -225,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "..\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Controllers\\AccountController.cs",
@@ -236,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "RolesRequirement.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Authorization\\RolesRequirement.cs",
               "RelativeDocumentMoniker": "..\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Authorization\\RolesRequirement.cs",
@@ -247,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "RolesAuthorizationHandler.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Authorization\\RolesAuthorizationHandler.cs",
               "RelativeDocumentMoniker": "..\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Authorization\\RolesAuthorizationHandler.cs",

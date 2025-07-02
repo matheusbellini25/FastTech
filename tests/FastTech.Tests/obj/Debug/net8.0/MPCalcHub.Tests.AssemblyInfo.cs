@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MPCalcHub.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+341d927b34b59b32a7aa9217aae4c893859ef950")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+afc8921a4f974a19f6ea5303e274f3f2f81c0bbf")]
 [assembly: System.Reflection.AssemblyProductAttribute("MPCalcHub.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MPCalcHub.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

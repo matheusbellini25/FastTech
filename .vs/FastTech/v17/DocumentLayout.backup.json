@@ -140,10 +140,6 @@
               "WhenOpened": "2025-07-02T00:07:12.486Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "FastTech.Infrastructure.csproj",
@@ -241,6 +237,10 @@
               "RelativeToolTip": "..\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Authorization\\RolesAuthorizationHandler.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-01T23:42:09.896Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

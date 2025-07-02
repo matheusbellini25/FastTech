@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FastTech.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48d951079bc621a5508383894088ddde956eaf24")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd23001070459778c60fbd02ee6b300d76f1385a")]
 [assembly: System.Reflection.AssemblyProductAttribute("FastTech.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FastTech.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

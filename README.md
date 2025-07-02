@@ -1,13 +1,6 @@
-# MP CalcHub
-
-**Nome em Inglês:** Multiple Platform Calculation Hub  
-**Nome em Português:** Hub de Cálculos para Múltiplas Plataformas
+# FastTech
 
 ## Integrantes do Grupo
-
-## Descrição
-
-Este é um projeto de pós-graduação em Arquitetura de Software, desenvolvido pelo Grupo 13 da faculdade. O MP CalcHub visa proporcionar uma estrutura para o desenvolvimento de cálculos de seguros, utilizando as melhores práticas de arquitetura e design de software.
 
 ## Tecnologias Utilizadas
 
@@ -31,16 +24,7 @@ O projeto abordará os seguintes tópicos:
 7. **Documentação de API**
 8. **Trabalhando com Cache**
 
-## Fase 2
-1. GitHub Actions
-2. Azure Pipelines
-3. Dockerfile
-4. Prometheus
-5. Grafana
-
 ## Estrutura do Projeto
-
-O projeto inicial conterá uma estrutura básica para trabalhar com cálculos de seguros. Espera-se que, ao longo do desenvolvimento, a aplicação evolua para abranger diversas funcionalidades relacionadas ao cálculo e à gestão de seguros, mantendo a escalabilidade e a manutenibilidade como princípios fundamentais.
 
 ## Contribuição
 

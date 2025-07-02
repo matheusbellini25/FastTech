@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace MPCalcHub.Tests.Domain.Validations;
+namespace FastTech.Tests.Domain.Validations;
 
 public abstract class BaseValidationTest
 {

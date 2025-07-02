@@ -1,10 +1,10 @@
 using Bogus;
 using FastTech.Application.DataTransferObjects;
-using MPCalcHub.Tests.Shared.Fixtures.Utils;
+using FastTech.Tests.Shared.Fixtures.Utils;
 
-namespace MPCalcHub.Tests.Shared.Fixtures.DataTransferObjects;
+namespace FastTech.Tests.Shared.Fixtures.DataTransferObjects;
 
-public sealed class BasicContactFixtures : BaseFixtures<BasicContact>
+public sealed class BasicItemCardapioFixtures : BaseFixtures<BasicItemCardapio>
 {
 
     private static readonly int[] ValidBrazilianDDDs = new[]
@@ -28,55 +28,31 @@ public sealed class BasicContactFixtures : BaseFixtures<BasicContact>
         91, 92, 93, 94, 95, 96, 97, 98, 99
     };
 
-    public BasicContactFixtures() : base() { }
+    public BasicItemCardapioFixtures() : base() { }
 
-    public static BasicContact GenerateUser()
+    public static BasicItemCardapio GenerateUser()
     {
         var faker = Faker
-            .RuleFor(u => u.Name, f => f.Person.FullName)
-            .RuleFor(u => u.Email, f => f.Internet.Email())
-            .RuleFor(u => u.DDD, f => f.PickRandom(ValidBrazilianDDDs))
-            .RuleFor(u => u.PhoneNumber, f => f.Phone.PhoneNumber("9########"));
+            .RuleFor(u => u.Nome, f => f.Person.FullName)
+            .RuleFor(u => u.Descricao, f => f.Lorem.Random.String())
+            .RuleFor(u => u.Preco, f => f.Finance.Random.Double())
+            .RuleFor(u => u.Disponivel, f => f.System.Random.Bool());
 
         return faker.Generate();
     }
 
-    public static BasicContact CreateAs_Base()
+    public static BasicItemCardapio CreateAs_Base()
     {
-        var contact = GenerateUser();
+        var ItemCardapio = GenerateUser();
 
-        return contact;
+        return ItemCardapio;
     }
 
-    public static BasicContact CreateAs_InvalidName()
+    public static BasicItemCardapio CreateAs_InvalidName()
     {
-        var contact = CreateAs_Base();
-        contact.Name = string.Empty;
+        var ItemCardapio = CreateAs_Base();
+        ItemCardapio.Nome = string.Empty;
 
-        return contact;
-    }
-
-    public static BasicContact CreateAs_InvalidEmail()
-    {
-        var contact = CreateAs_Base();
-        contact.Email = FakerDefault.Random.String2(2, 2);
-
-        return contact;
-    }
-
-    public static BasicContact CreateAs_InvalidPhoneNumber()
-    {
-        var contact = CreateAs_Base();
-        contact.PhoneNumber = FakerDefault.Random.String2(2, 2);
-
-        return contact;
-    }
-
-    public static BasicContact CreateAs_InvalidDDD()
-    {
-        var contact = CreateAs_Base();
-        contact.DDD = FakerDefault.Random.Int(2, 2);
-
-        return contact;
+        return ItemCardapio;
     }
 }

@@ -25,7 +25,7 @@ public class ItemCardapioApplicationService(IItemCardapioService ItemCardapioSer
 
     public async Task<ItemCardapio> Update(ItemCardapio model)
     {
-        var ItemCardapio = await _ItemCardapioService.GetById(model.Id.Value, include: false, tracking: true);
+        var ItemCardapio = await _ItemCardapioService.GetById(model.Id, include: false, tracking: true);
         if (ItemCardapio == null)
             throw new Exception("O Item do Cardapio não existe.");
             

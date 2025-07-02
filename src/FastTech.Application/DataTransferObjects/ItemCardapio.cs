@@ -1,38 +1,42 @@
-﻿using FastTech.Domain.Enums;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
+﻿using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
-using System.Threading.Tasks;
 
 namespace FastTech.Application.DataTransferObjects
 {
     public class ItemCardapio : BaseModel
     {
+        [Key]
+        public Guid Id { get; set; }
 
-        [JsonPropertyName("name")]
-        public string Name { get; set; }
+        [JsonPropertyName("nome")]
+        [Required(ErrorMessage = "O campo Nome é obrigatório.")]
+        [StringLength(100, MinimumLength = 2, ErrorMessage = "O nome deve ter entre 2 e 100 caracteres.")]
+        public string Nome { get; set; }
 
-        [JsonPropertyName("ddd")]
-        public int DDD { get; set; }
+        [JsonPropertyName("descricao")]
+        [Required(ErrorMessage = "O campo Descrição é obrigatório.")]
+        [StringLength(300, ErrorMessage = "A descrição pode ter no máximo 300 caracteres.")]
+        public string Descricao { get; set; }
 
-        [Phone(ErrorMessage = "O número de telefone inserido não é válido.")]
-        [Required(ErrorMessage = "O campo de telefone é obrigatório.")]
-        [JsonPropertyName("phone_number")]
-        public string PhoneNumber { get; set; }
+        [JsonPropertyName("preco")]
+        [Required(ErrorMessage = "O campo Preço é obrigatório.")]
+        [Range(0.01, double.MaxValue, ErrorMessage = "O preço deve ser maior que zero.")]
+        public double Preco { get; set; }
 
-        [JsonPropertyName("email")]
-        [Required(ErrorMessage = "O campo de e-mail é obrigatório.")]
-        [EmailAddress(ErrorMessage = "O e-mail inserido não é válido.")]
-        public string Email { get; set; }
-
+        [JsonPropertyName("disponivel")]
+        public bool Disponivel { get; set; }
         public ItemCardapio() : base() { }
 
-        public ItemCardapio(Guid? id, DateTime createdAt, Guid createdBy, DateTime? updatedAt, Guid? updatedBy, bool removed, DateTime? removedAt, Guid? removedBy, string name, string phoneNumber, string email)
+        public ItemCardapio(Guid id, string nome, string descricao, double preco, bool disponivel,
+                            DateTime createdAt, Guid createdBy,
+                            DateTime? updatedAt, Guid? updatedBy,
+                            bool removed, DateTime? removedAt, Guid? removedBy)
         {
             Id = id;
+            Nome = nome;
+            Descricao = descricao;
+            Preco = preco;
+            Disponivel = disponivel;
             CreatedAt = createdAt;
             CreatedBy = createdBy;
             UpdatedAt = updatedAt;
@@ -40,10 +44,6 @@ namespace FastTech.Application.DataTransferObjects
             Removed = removed;
             RemovedAt = removedAt;
             RemovedBy = removedBy;
-            Name = name;
-            PhoneNumber = phoneNumber;
-            Email = email;
         }
     }
-
 }

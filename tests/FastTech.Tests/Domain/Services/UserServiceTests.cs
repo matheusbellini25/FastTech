@@ -3,10 +3,10 @@ using FastTech.Domain.Interfaces;
 using FastTech.Domain.Interfaces.Infrastructure;
 using FastTech.Domain.Services;
 using FastTech.Infrastructure.Data.Repositories;
-using MPCalcHub.Tests.Shared.Fixtures.Entities;
-using MPCalcHub.Tests.Shared.Fixtures.Utils;
+using FastTech.Tests.Shared.Fixtures.Entities;
+using FastTech.Tests.Shared.Fixtures.Utils;
 
-namespace MPCalcHub.Tests.Domain.Services;
+namespace FastTech.Tests.Domain.Services;
 
 public class UserServiceTests : BaseServiceTests
 {

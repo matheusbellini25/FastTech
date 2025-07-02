@@ -1,9 +1,9 @@
 using Bogus;
 using FastTech.Domain.Entities;
 using FastTech.Domain.Enums;
-using MPCalcHub.Tests.Shared.Fixtures.Utils;
+using FastTech.Tests.Shared.Fixtures.Utils;
 
-namespace MPCalcHub.Tests.Shared.Fixtures.Entities;
+namespace FastTech.Tests.Shared.Fixtures.Entities;
 
 public sealed class UserFixtures : BaseFixtures<User>
 {

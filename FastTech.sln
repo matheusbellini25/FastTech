@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastTech.Infrastructure", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{95362A89-6082-473A-A1B2-9886AB891E02}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MPCalcHub.Tests", "tests\FastTech.Tests\MPCalcHub.Tests.csproj", "{4EBE0480-4EC6-4C5C-A964-021F04818677}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastTech.Tests", "tests\FastTech.Tests\FastTech.Tests.csproj", "{4EBE0480-4EC6-4C5C-A964-021F04818677}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

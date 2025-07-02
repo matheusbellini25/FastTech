@@ -1,40 +1,37 @@
 using FastTech.Application.DataTransferObjects;
-using MPCalcHub.Tests.Shared.Fixtures.DataTransferObjects;
+using FastTech.Tests.Shared.Fixtures.DataTransferObjects;
 
-namespace MPCalcHub.Tests.Domain.Validations;
+namespace FastTech.Tests.Domain.Validations;
 
-public class BasicContactValidationTests : BaseValidationTest
+public class BasicItemCardapioValidationTests : BaseValidationTest
 {
     [Fact]
-    public void BasicContact_AllAttributesValid_ShouldHaveRequiredAttribute_ResultValid()
+    public void BasicItemCardapio_AllAttributesValid_ShouldHaveRequiredAttribute_ResultValid()
     {
         // Arrange
-        var basicContact = BasicContactFixtures.CreateAs_Base();
+        var basicItemCardapio = BasicItemCardapioFixtures.CreateAs_Base();
 
         // Act
-        var validationResults = ValidateModel(basicContact);
+        var validationResults = ValidateModel(basicItemCardapio);
 
         // Assert
         Assert.Empty(validationResults);
     }
 
     /// <summary>
-    /// Data for testing invalid BasicContact
+    /// Data for testing invalid BasicItemCardapio
     /// </summary>
-    public static IEnumerable<object[]> GetBasicContactInvalidData()
+    public static IEnumerable<object[]> GetBasicItemCardapioInvalidData()
     {
-        yield return new object[] { BasicContactFixtures.CreateAs_InvalidName() };
-        yield return new object[] { BasicContactFixtures.CreateAs_InvalidEmail() };
-        yield return new object[] { BasicContactFixtures.CreateAs_InvalidPhoneNumber() };
-        yield return new object[] { BasicContactFixtures.CreateAs_InvalidDDD() };
+        yield return new object[] { BasicItemCardapioFixtures.CreateAs_InvalidName() };
     }
 
     [Theory]
-    [MemberData(nameof(GetBasicContactInvalidData))]
-    public void BasicContact_ShouldHaveRequiredAttribute_AllResultsInvalid(BasicContact basicContact)
+    [MemberData(nameof(GetBasicItemCardapioInvalidData))]
+    public void BasicItemCardapio_ShouldHaveRequiredAttribute_AllResultsInvalid(BasicItemCardapio basicItemCardapio)
     {
         // Act
-        var validationResults = ValidateModel(basicContact);
+        var validationResults = ValidateModel(basicItemCardapio);
 
         // Assert
         Assert.NotEmpty(validationResults);

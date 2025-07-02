@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using FastTech.Infrastructure.Data;
 
-namespace MPCalcHub.Tests.Shared.DataBase;
+namespace FastTech.Tests.Shared.DataBase;
 
 public class TestDatabaseDockerFixture : IDisposable
 {

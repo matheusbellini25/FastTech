@@ -1,7 +1,7 @@
 using FastTech.Application.DataTransferObjects;
-using MPCalcHub.Tests.Shared.Fixtures.DataTransferObjects;
+using FastTech.Tests.Shared.Fixtures.DataTransferObjects;
 
-namespace MPCalcHub.Tests.Domain.Validations;
+namespace FastTech.Tests.Domain.Validations;
 
 public class BasicUserValidationTestsTest : BaseValidationTest
 {

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FastTech.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+afc8921a4f974a19f6ea5303e274f3f2f81c0bbf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+396c4b6c9abb980ba72dbd65e51cad2527b715b5")]
 [assembly: System.Reflection.AssemblyProductAttribute("FastTech.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FastTech.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

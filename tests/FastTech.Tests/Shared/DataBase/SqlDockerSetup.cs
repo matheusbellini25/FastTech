@@ -1,7 +1,7 @@
 using System.Diagnostics;
 using Microsoft.Data.SqlClient;
 
-namespace MPCalcHub.Tests.Shared.DataBase;
+namespace FastTech.Tests.Shared.DataBase;
 
 public class SqlDockerSetup : IDisposable
 {

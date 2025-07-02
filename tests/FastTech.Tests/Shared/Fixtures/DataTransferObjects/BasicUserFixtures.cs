@@ -1,9 +1,9 @@
 using Bogus;
 using FastTech.Application.DataTransferObjects;
 using FastTech.Domain.Enums;
-using MPCalcHub.Tests.Shared.Fixtures.Utils;
+using FastTech.Tests.Shared.Fixtures.Utils;
 
-namespace MPCalcHub.Tests.Shared.Fixtures.DataTransferObjects;
+namespace FastTech.Tests.Shared.Fixtures.DataTransferObjects;
 
 public sealed class BasicUserFixtures : BaseFixtures<BasicUser>
 {

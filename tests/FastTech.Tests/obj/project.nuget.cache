@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4Z8+K/fU/YU=",
+  "dgSpecHash": "+r5685630cE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\MPCalcHub.Tests.csproj",
+  "projectFilePath": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\FastTech.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MatheusBelliniCosta\\.nuget\\packages\\aspnetcore.healthchecks.sqlserver\\9.0.0\\aspnetcore.healthchecks.sqlserver.9.0.0.nupkg.sha512",
     "C:\\Users\\MatheusBelliniCosta\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",

@@ -1,7 +1,7 @@
 using FastTech.Domain.Entities;
-using MPCalcHub.Tests.Shared.Fixtures.Utils;
+using FastTech.Tests.Shared.Fixtures.Utils;
 
-namespace MPCalcHub.Tests.Shared.Fixtures;
+namespace FastTech.Tests.Shared.Fixtures;
 
 public sealed class StateDDDFixtures : BaseFixtures<StateDDD>
 {

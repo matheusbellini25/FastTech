@@ -1,8 +1,8 @@
 using FastTech.Domain.Entities;
 using FastTech.Infrastructure.Data;
-using MPCalcHub.Tests.Shared.DataBase;
+using FastTech.Tests.Shared.DataBase;
 
-namespace MPCalcHub.Tests.Domain.Services;
+namespace FastTech.Tests.Domain.Services;
 
 public abstract class BaseServiceTests : IDisposable
 {

@@ -6151,9 +6151,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\MPCalcHub.Tests.csproj",
-      "projectName": "MPCalcHub.Tests",
-      "projectPath": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\MPCalcHub.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\FastTech.Tests.csproj",
+      "projectName": "FastTech.Tests",
+      "projectPath": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\FastTech.Tests.csproj",
       "packagesPath": "C:\\Users\\MatheusBelliniCosta\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\obj\\",
       "projectStyle": "PackageReference",

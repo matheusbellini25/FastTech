@@ -1,6 +1,6 @@
 using Bogus;
 
-namespace MPCalcHub.Tests.Shared.Fixtures.Utils;
+namespace FastTech.Tests.Shared.Fixtures.Utils;
 
 public class BaseFixtures<T> : IDisposable where T : class
 {

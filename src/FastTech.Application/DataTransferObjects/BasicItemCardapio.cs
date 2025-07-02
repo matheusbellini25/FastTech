@@ -23,7 +23,7 @@ namespace FastTech.Application.DataTransferObjects
         [JsonPropertyName("disponivel")]
         public bool Disponivel { get; set; }
 
-        public BasicItemCardapio() { }
+        public BasicItemCardapio() : base() { }
 
         public BasicItemCardapio(string nome, string descricao, double preco, bool disponivel)
         {

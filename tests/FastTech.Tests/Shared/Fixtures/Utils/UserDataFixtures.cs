@@ -1,7 +1,7 @@
 using Bogus;
 using FastTech.Domain.Entities;
 
-namespace MPCalcHub.Tests.Shared.Fixtures.Utils;
+namespace FastTech.Tests.Shared.Fixtures.Utils;
 
 public class UserDataFixtures : BaseFixtures<UserData>
 {

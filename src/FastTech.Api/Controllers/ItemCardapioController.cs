@@ -9,7 +9,7 @@ namespace FastTech.Api.Controllers
     /// <summary>
     /// ItemCardapio controller
     /// </summary>
-    [Route("ItemCardapios")]
+    [Route("ItemCardapio")]
     public class ItemCardapioController(ILogger<ItemCardapioController> logger, IItemCardapioApplicationService ItemCardapioApplicationService) : BaseController(logger)
     {
         private readonly IItemCardapioApplicationService _ItemCardapioApplicationService = ItemCardapioApplicationService;

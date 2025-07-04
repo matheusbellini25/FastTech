@@ -108,8 +108,6 @@ namespace FastTech.Tests.Domain.Services
             await _context.Database.EnsureDeletedAsync();
 
             // Carrega os dados iniciais (seeds)
-            var states = StateDDDFixtures.GenerateAllStateDDD();
-            await _context.AddRangeAsync(states);
 
             await _context.SaveChangesAsync();
         }

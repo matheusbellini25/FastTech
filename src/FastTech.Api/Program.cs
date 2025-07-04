@@ -158,7 +158,6 @@ builder.Services.AddMemoryCache();
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IItemCardapioRepository, ItemCardapioRepository>();
-builder.Services.AddScoped<IStateDDDRepository, StateDDDRepository>();
 
 #endregion
 
@@ -167,7 +166,6 @@ builder.Services.AddScoped<IStateDDDRepository, StateDDDRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddScoped<IItemCardapioService, ItemCardapioService>();
-builder.Services.AddScoped<IStateDDDService, StateDDDService>();
 
 #endregion
 

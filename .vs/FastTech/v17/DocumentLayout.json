@@ -3,6 +3,130 @@
   "WorkspaceRootPath": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Infrastructure\\Migrations\\20250704000550_Create_Table_Pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\FastTech.Infrastructure\\Migrations\\20250704000550_Create_Table_Pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D64725D3-9D39-4D46-A3E8-7EFA70F6C2B7}|src\\FastTech.Api\\FastTech.Api.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\src\\fasttech.api\\controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D64725D3-9D39-4D46-A3E8-7EFA70F6C2B7}|src\\FastTech.Api\\FastTech.Api.csproj|solutionrelative:src\\fasttech.api\\controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5541371-D391-4417-8CB4-EEF26A51D71E}|src\\FastTech.Application\\FastTech.Application.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\src\\fasttech.application\\services\\pedidoapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5541371-D391-4417-8CB4-EEF26A51D71E}|src\\FastTech.Application\\FastTech.Application.csproj|solutionrelative:src\\fasttech.application\\services\\pedidoapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C74232D7-1176-4814-B339-8078218DBF2F}|src\\FastTech.Domain\\FastTech.Domain.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\src\\fasttech.domain\\constants\\appconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C74232D7-1176-4814-B339-8078218DBF2F}|src\\FastTech.Domain\\FastTech.Domain.csproj|solutionrelative:src\\fasttech.domain\\constants\\appconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5541371-D391-4417-8CB4-EEF26A51D71E}|src\\FastTech.Application\\FastTech.Application.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\src\\fasttech.application\\mappings\\pedidomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5541371-D391-4417-8CB4-EEF26A51D71E}|src\\FastTech.Application\\FastTech.Application.csproj|solutionrelative:src\\fasttech.application\\mappings\\pedidomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5541371-D391-4417-8CB4-EEF26A51D71E}|src\\FastTech.Application\\FastTech.Application.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\src\\fasttech.application\\mappings\\itemcardapiomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5541371-D391-4417-8CB4-EEF26A51D71E}|src\\FastTech.Application\\FastTech.Application.csproj|solutionrelative:src\\fasttech.application\\mappings\\itemcardapiomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C74232D7-1176-4814-B339-8078218DBF2F}|src\\FastTech.Domain\\FastTech.Domain.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\src\\fasttech.domain\\entities\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C74232D7-1176-4814-B339-8078218DBF2F}|src\\FastTech.Domain\\FastTech.Domain.csproj|solutionrelative:src\\fasttech.domain\\entities\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C74232D7-1176-4814-B339-8078218DBF2F}|src\\FastTech.Domain\\FastTech.Domain.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\src\\fasttech.domain\\entities\\itemcardapio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C74232D7-1176-4814-B339-8078218DBF2F}|src\\FastTech.Domain\\FastTech.Domain.csproj|solutionrelative:src\\fasttech.domain\\entities\\itemcardapio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5541371-D391-4417-8CB4-EEF26A51D71E}|src\\FastTech.Application\\FastTech.Application.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\src\\fasttech.application\\datatransferobjects\\messagebrokers\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5541371-D391-4417-8CB4-EEF26A51D71E}|src\\FastTech.Application\\FastTech.Application.csproj|solutionrelative:src\\fasttech.application\\datatransferobjects\\messagebrokers\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5541371-D391-4417-8CB4-EEF26A51D71E}|src\\FastTech.Application\\FastTech.Application.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\src\\fasttech.application\\datatransferobjects\\messagebrokers\\basicpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5541371-D391-4417-8CB4-EEF26A51D71E}|src\\FastTech.Application\\FastTech.Application.csproj|solutionrelative:src\\fasttech.application\\datatransferobjects\\messagebrokers\\basicpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5541371-D391-4417-8CB4-EEF26A51D71E}|src\\FastTech.Application\\FastTech.Application.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\src\\fasttech.application\\datatransferobjects\\messagebrokers\\basicitemcardapio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5541371-D391-4417-8CB4-EEF26A51D71E}|src\\FastTech.Application\\FastTech.Application.csproj|solutionrelative:src\\fasttech.application\\datatransferobjects\\messagebrokers\\basicitemcardapio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D64725D3-9D39-4D46-A3E8-7EFA70F6C2B7}|src\\FastTech.Api\\FastTech.Api.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\src\\fasttech.api\\controllers\\itemcardapiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D64725D3-9D39-4D46-A3E8-7EFA70F6C2B7}|src\\FastTech.Api\\FastTech.Api.csproj|solutionrelative:src\\fasttech.api\\controllers\\itemcardapiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C74232D7-1176-4814-B339-8078218DBF2F}|src\\FastTech.Domain\\FastTech.Domain.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\src\\fasttech.domain\\interfaces\\ipedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C74232D7-1176-4814-B339-8078218DBF2F}|src\\FastTech.Domain\\FastTech.Domain.csproj|solutionrelative:src\\fasttech.domain\\interfaces\\ipedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C74232D7-1176-4814-B339-8078218DBF2F}|src\\FastTech.Domain\\FastTech.Domain.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\src\\fasttech.domain\\services\\itemcardapioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C74232D7-1176-4814-B339-8078218DBF2F}|src\\FastTech.Domain\\FastTech.Domain.csproj|solutionrelative:src\\fasttech.domain\\services\\itemcardapioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C74232D7-1176-4814-B339-8078218DBF2F}|src\\FastTech.Domain\\FastTech.Domain.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\src\\fasttech.domain\\services\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C74232D7-1176-4814-B339-8078218DBF2F}|src\\FastTech.Domain\\FastTech.Domain.csproj|solutionrelative:src\\fasttech.domain\\services\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5541371-D391-4417-8CB4-EEF26A51D71E}|src\\FastTech.Application\\FastTech.Application.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\src\\fasttech.application\\interfaces\\iitemcardapioapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5541371-D391-4417-8CB4-EEF26A51D71E}|src\\FastTech.Application\\FastTech.Application.csproj|solutionrelative:src\\fasttech.application\\interfaces\\iitemcardapioapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5541371-D391-4417-8CB4-EEF26A51D71E}|src\\FastTech.Application\\FastTech.Application.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\src\\fasttech.application\\interfaces\\ipedidoapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5541371-D391-4417-8CB4-EEF26A51D71E}|src\\FastTech.Application\\FastTech.Application.csproj|solutionrelative:src\\fasttech.application\\interfaces\\ipedidoapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5541371-D391-4417-8CB4-EEF26A51D71E}|src\\FastTech.Application\\FastTech.Application.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\src\\fasttech.application\\services\\itemcardapioapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5541371-D391-4417-8CB4-EEF26A51D71E}|src\\FastTech.Application\\FastTech.Application.csproj|solutionrelative:src\\fasttech.application\\services\\itemcardapioapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C74232D7-1176-4814-B339-8078218DBF2F}|src\\FastTech.Domain\\FastTech.Domain.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\src\\fasttech.domain\\interfaces\\infrastructure\\ipedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C74232D7-1176-4814-B339-8078218DBF2F}|src\\FastTech.Domain\\FastTech.Domain.csproj|solutionrelative:src\\fasttech.domain\\interfaces\\infrastructure\\ipedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B858C12-3B34-4DDA-9821-BF731770D70B}|src\\FastTech.Infrastructure\\FastTech.Infrastructure.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\src\\fasttech.infrastructure\\data\\repositories\\pedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B858C12-3B34-4DDA-9821-BF731770D70B}|src\\FastTech.Infrastructure\\FastTech.Infrastructure.csproj|solutionrelative:src\\fasttech.infrastructure\\data\\repositories\\pedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B858C12-3B34-4DDA-9821-BF731770D70B}|src\\FastTech.Infrastructure\\FastTech.Infrastructure.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\src\\fasttech.infrastructure\\data\\configurations\\pedidoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B858C12-3B34-4DDA-9821-BF731770D70B}|src\\FastTech.Infrastructure\\FastTech.Infrastructure.csproj|solutionrelative:src\\fasttech.infrastructure\\data\\configurations\\pedidoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5541371-D391-4417-8CB4-EEF26A51D71E}|src\\FastTech.Application\\FastTech.Application.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\src\\fasttech.application\\datatransferobjects\\basicpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5541371-D391-4417-8CB4-EEF26A51D71E}|src\\FastTech.Application\\FastTech.Application.csproj|solutionrelative:src\\fasttech.application\\datatransferobjects\\basicpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5541371-D391-4417-8CB4-EEF26A51D71E}|src\\FastTech.Application\\FastTech.Application.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\src\\fasttech.application\\datatransferobjects\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5541371-D391-4417-8CB4-EEF26A51D71E}|src\\FastTech.Application\\FastTech.Application.csproj|solutionrelative:src\\fasttech.application\\datatransferobjects\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5541371-D391-4417-8CB4-EEF26A51D71E}|src\\FastTech.Application\\FastTech.Application.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\src\\fasttech.application\\datatransferobjects\\itemcardapio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5541371-D391-4417-8CB4-EEF26A51D71E}|src\\FastTech.Application\\FastTech.Application.csproj|solutionrelative:src\\fasttech.application\\datatransferobjects\\itemcardapio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5541371-D391-4417-8CB4-EEF26A51D71E}|src\\FastTech.Application\\FastTech.Application.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\src\\fasttech.application\\datatransferobjects\\basicitemcardapio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5541371-D391-4417-8CB4-EEF26A51D71E}|src\\FastTech.Application\\FastTech.Application.csproj|solutionrelative:src\\fasttech.application\\datatransferobjects\\basicitemcardapio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D64725D3-9D39-4D46-A3E8-7EFA70F6C2B7}|src\\FastTech.Api\\FastTech.Api.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\src\\fasttech.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D64725D3-9D39-4D46-A3E8-7EFA70F6C2B7}|src\\FastTech.Api\\FastTech.Api.csproj|solutionrelative:src\\fasttech.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EBE0480-4EC6-4C5C-A964-021F04818677}|tests\\FastTech.Tests\\FastTech.Tests.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\tests\\fasttech.tests\\domain\\services\\itemcardapioservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EBE0480-4EC6-4C5C-A964-021F04818677}|tests\\FastTech.Tests\\FastTech.Tests.csproj|solutionrelative:tests\\fasttech.tests\\domain\\services\\itemcardapioservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EBE0480-4EC6-4C5C-A964-021F04818677}|tests\\FastTech.Tests\\FastTech.Tests.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\tests\\fasttech.tests\\shared\\fixtures\\datatransferobjects\\basiccontactfixtures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EBE0480-4EC6-4C5C-A964-021F04818677}|tests\\FastTech.Tests\\FastTech.Tests.csproj|solutionrelative:tests\\fasttech.tests\\shared\\fixtures\\datatransferobjects\\basiccontactfixtures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C74232D7-1176-4814-B339-8078218DBF2F}|src\\FastTech.Domain\\FastTech.Domain.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\src\\fasttech.domain\\enums\\permissionlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C74232D7-1176-4814-B339-8078218DBF2F}|src\\FastTech.Domain\\FastTech.Domain.csproj|solutionrelative:src\\fasttech.domain\\enums\\permissionlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D64725D3-9D39-4D46-A3E8-7EFA70F6C2B7}|src\\FastTech.Api\\FastTech.Api.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\src\\fasttech.api\\authorization\\rolesauthorizationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D64725D3-9D39-4D46-A3E8-7EFA70F6C2B7}|src\\FastTech.Api\\FastTech.Api.csproj|solutionrelative:src\\fasttech.api\\authorization\\rolesauthorizationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C74232D7-1176-4814-B339-8078218DBF2F}|src\\FastTech.Domain\\FastTech.Domain.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\src\\fasttech.domain\\services\\security\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C74232D7-1176-4814-B339-8078218DBF2F}|src\\FastTech.Domain\\FastTech.Domain.csproj|solutionrelative:src\\fasttech.domain\\services\\security\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4EBE0480-4EC6-4C5C-A964-021F04818677}|tests\\FastTech.Tests\\FastTech.Tests.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\tests\\fasttech.tests\\domain\\services\\itemcardapioserviceunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4EBE0480-4EC6-4C5C-A964-021F04818677}|tests\\FastTech.Tests\\FastTech.Tests.csproj|solutionrelative:tests\\fasttech.tests\\domain\\services\\itemcardapioserviceunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,32 +142,8 @@
       "RelativeMoniker": "D:0:0:{4EBE0480-4EC6-4C5C-A964-021F04818677}|tests\\FastTech.Tests\\FastTech.Tests.csproj|solutionrelative:tests\\fasttech.tests\\shared\\fixtures\\entities\\userfixtures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5541371-D391-4417-8CB4-EEF26A51D71E}|src\\FastTech.Application\\FastTech.Application.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\src\\fasttech.application\\mappings\\itemcardapiomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5541371-D391-4417-8CB4-EEF26A51D71E}|src\\FastTech.Application\\FastTech.Application.csproj|solutionrelative:src\\fasttech.application\\mappings\\itemcardapiomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4EBE0480-4EC6-4C5C-A964-021F04818677}|tests\\FastTech.Tests\\FastTech.Tests.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\tests\\fasttech.tests\\domain\\validations\\basiccontactvalidationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4EBE0480-4EC6-4C5C-A964-021F04818677}|tests\\FastTech.Tests\\FastTech.Tests.csproj|solutionrelative:tests\\fasttech.tests\\domain\\validations\\basiccontactvalidationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5541371-D391-4417-8CB4-EEF26A51D71E}|src\\FastTech.Application\\FastTech.Application.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\src\\fasttech.application\\services\\itemcardapioapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5541371-D391-4417-8CB4-EEF26A51D71E}|src\\FastTech.Application\\FastTech.Application.csproj|solutionrelative:src\\fasttech.application\\services\\itemcardapioapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4EBE0480-4EC6-4C5C-A964-021F04818677}|tests\\FastTech.Tests\\FastTech.Tests.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\tests\\fasttech.tests\\shared\\fixtures\\datatransferobjects\\basiccontactfixtures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EBE0480-4EC6-4C5C-A964-021F04818677}|tests\\FastTech.Tests\\FastTech.Tests.csproj|solutionrelative:tests\\fasttech.tests\\shared\\fixtures\\datatransferobjects\\basiccontactfixtures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4EBE0480-4EC6-4C5C-A964-021F04818677}|tests\\FastTech.Tests\\FastTech.Tests.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\tests\\fasttech.tests\\domain\\services\\itemcardapioservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EBE0480-4EC6-4C5C-A964-021F04818677}|tests\\FastTech.Tests\\FastTech.Tests.csproj|solutionrelative:tests\\fasttech.tests\\domain\\services\\itemcardapioservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5541371-D391-4417-8CB4-EEF26A51D71E}|src\\FastTech.Application\\FastTech.Application.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\src\\fasttech.application\\datatransferobjects\\basicitemcardapio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5541371-D391-4417-8CB4-EEF26A51D71E}|src\\FastTech.Application\\FastTech.Application.csproj|solutionrelative:src\\fasttech.application\\datatransferobjects\\basicitemcardapio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D64725D3-9D39-4D46-A3E8-7EFA70F6C2B7}|src\\FastTech.Api\\FastTech.Api.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\src\\fasttech.api\\controllers\\itemcardapiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D64725D3-9D39-4D46-A3E8-7EFA70F6C2B7}|src\\FastTech.Api\\FastTech.Api.csproj|solutionrelative:src\\fasttech.api\\controllers\\itemcardapiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4EBE0480-4EC6-4C5C-A964-021F04818677}|tests\\FastTech.Tests\\FastTech.Tests.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\tests\\fasttech.tests\\domain\\validations\\basicuservalidationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -56,14 +156,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E5541371-D391-4417-8CB4-EEF26A51D71E}|src\\FastTech.Application\\FastTech.Application.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\src\\fasttech.application\\datatransferobjects\\basicuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5541371-D391-4417-8CB4-EEF26A51D71E}|src\\FastTech.Application\\FastTech.Application.csproj|solutionrelative:src\\fasttech.application\\datatransferobjects\\basicuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5541371-D391-4417-8CB4-EEF26A51D71E}|src\\FastTech.Application\\FastTech.Application.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\src\\fasttech.application\\datatransferobjects\\itemcardapio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5541371-D391-4417-8CB4-EEF26A51D71E}|src\\FastTech.Application\\FastTech.Application.csproj|solutionrelative:src\\fasttech.application\\datatransferobjects\\itemcardapio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D64725D3-9D39-4D46-A3E8-7EFA70F6C2B7}|src\\FastTech.Api\\FastTech.Api.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\src\\fasttech.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D64725D3-9D39-4D46-A3E8-7EFA70F6C2B7}|src\\FastTech.Api\\FastTech.Api.csproj|solutionrelative:src\\fasttech.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Logging\\CustomLoggerProviderConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -118,203 +210,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "vctmp57688_353987.ContactFixtures.630a2574.cs",
-              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\AppData\\Local\\Temp\\TFSTemp\\vctmp57688_353987.ContactFixtures.630a2574.cs",
-              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\Temp\\TFSTemp\\vctmp57688_353987.ContactFixtures.630a2574.cs",
-              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\AppData\\Local\\Temp\\TFSTemp\\vctmp57688_353987.ContactFixtures.630a2574.cs [Read Only]",
-              "RelativeToolTip": "..\\..\\AppData\\Local\\Temp\\TFSTemp\\vctmp57688_353987.ContactFixtures.630a2574.cs [Read Only]",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAFEAAAAFAAAAAQAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T21:05:44.051Z",
-              "EditorCaption": " [Read Only]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserFixtures.cs",
-              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\Shared\\Fixtures\\Entities\\UserFixtures.cs",
-              "RelativeDocumentMoniker": "tests\\FastTech.Tests\\Shared\\Fixtures\\Entities\\UserFixtures.cs",
-              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\Shared\\Fixtures\\Entities\\UserFixtures.cs",
-              "RelativeToolTip": "tests\\FastTech.Tests\\Shared\\Fixtures\\Entities\\UserFixtures.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T21:05:02.404Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ItemCardapioMapper.cs",
-              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Application\\Mappings\\ItemCardapioMapper.cs",
-              "RelativeDocumentMoniker": "src\\FastTech.Application\\Mappings\\ItemCardapioMapper.cs",
-              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Application\\Mappings\\ItemCardapioMapper.cs",
-              "RelativeToolTip": "src\\FastTech.Application\\Mappings\\ItemCardapioMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T21:02:45.511Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ItemCardapioServiceUnitTests.cs",
-              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\Domain\\Services\\ItemCardapioServiceUnitTests.cs",
-              "RelativeDocumentMoniker": "tests\\FastTech.Tests\\Domain\\Services\\ItemCardapioServiceUnitTests.cs",
-              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\Domain\\Services\\ItemCardapioServiceUnitTests.cs*",
-              "RelativeToolTip": "tests\\FastTech.Tests\\Domain\\Services\\ItemCardapioServiceUnitTests.cs*",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAYwBQAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T20:34:14.488Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ItemCardapioFixtures.cs",
-              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\Shared\\Fixtures\\Entities\\ItemCardapioFixtures.cs",
-              "RelativeDocumentMoniker": "tests\\FastTech.Tests\\Shared\\Fixtures\\Entities\\ItemCardapioFixtures.cs",
-              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\Shared\\Fixtures\\Entities\\ItemCardapioFixtures.cs",
-              "RelativeToolTip": "tests\\FastTech.Tests\\Shared\\Fixtures\\Entities\\ItemCardapioFixtures.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAqwDcAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T20:56:55.292Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BasicContactValidationTests.cs",
-              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\Domain\\Validations\\BasicContactValidationTests.cs",
-              "RelativeDocumentMoniker": "tests\\FastTech.Tests\\Domain\\Validations\\BasicContactValidationTests.cs",
-              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\Domain\\Validations\\BasicContactValidationTests.cs",
-              "RelativeToolTip": "tests\\FastTech.Tests\\Domain\\Validations\\BasicContactValidationTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T21:02:33.508Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ItemCardapioApplicationService.cs",
-              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Application\\Services\\ItemCardapioApplicationService.cs",
-              "RelativeDocumentMoniker": "src\\FastTech.Application\\Services\\ItemCardapioApplicationService.cs",
-              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Application\\Services\\ItemCardapioApplicationService.cs",
-              "RelativeToolTip": "src\\FastTech.Application\\Services\\ItemCardapioApplicationService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBIAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T20:59:42.444Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BasicUserValidationTests.cs",
-              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\Domain\\Validations\\BasicUserValidationTests.cs",
-              "RelativeDocumentMoniker": "tests\\FastTech.Tests\\Domain\\Validations\\BasicUserValidationTests.cs",
-              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\Domain\\Validations\\BasicUserValidationTests.cs",
-              "RelativeToolTip": "tests\\FastTech.Tests\\Domain\\Validations\\BasicUserValidationTests.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA4AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T20:53:16.105Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "BasicUserFixtures.cs",
-              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\Shared\\Fixtures\\DataTransferObjects\\BasicUserFixtures.cs",
-              "RelativeDocumentMoniker": "tests\\FastTech.Tests\\Shared\\Fixtures\\DataTransferObjects\\BasicUserFixtures.cs",
-              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\Shared\\Fixtures\\DataTransferObjects\\BasicUserFixtures.cs",
-              "RelativeToolTip": "tests\\FastTech.Tests\\Shared\\Fixtures\\DataTransferObjects\\BasicUserFixtures.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T20:53:05.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ItemCardapioController.cs",
-              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Api\\Controllers\\ItemCardapioController.cs",
-              "RelativeDocumentMoniker": "src\\FastTech.Api\\Controllers\\ItemCardapioController.cs",
-              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Api\\Controllers\\ItemCardapioController.cs",
-              "RelativeToolTip": "src\\FastTech.Api\\Controllers\\ItemCardapioController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAswC8AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T20:51:01.041Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ItemCardapioServiceTests.cs",
-              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\Domain\\Services\\ItemCardapioServiceTests.cs",
-              "RelativeDocumentMoniker": "tests\\FastTech.Tests\\Domain\\Services\\ItemCardapioServiceTests.cs",
-              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\Domain\\Services\\ItemCardapioServiceTests.cs",
-              "RelativeToolTip": "tests\\FastTech.Tests\\Domain\\Services\\ItemCardapioServiceTests.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAQwFMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T20:36:10.261Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BasicContactFixtures.cs",
-              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\Shared\\Fixtures\\DataTransferObjects\\BasicContactFixtures.cs",
-              "RelativeDocumentMoniker": "tests\\FastTech.Tests\\Shared\\Fixtures\\DataTransferObjects\\BasicContactFixtures.cs",
-              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\Shared\\Fixtures\\DataTransferObjects\\BasicContactFixtures.cs",
-              "RelativeToolTip": "tests\\FastTech.Tests\\Shared\\Fixtures\\DataTransferObjects\\BasicContactFixtures.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T20:36:46.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ItemCardapio.cs",
-              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Application\\DataTransferObjects\\ItemCardapio.cs",
-              "RelativeDocumentMoniker": "src\\FastTech.Application\\DataTransferObjects\\ItemCardapio.cs",
-              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Application\\DataTransferObjects\\ItemCardapio.cs",
-              "RelativeToolTip": "src\\FastTech.Application\\DataTransferObjects\\ItemCardapio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T20:40:56.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BasicItemCardapio.cs",
-              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Application\\DataTransferObjects\\BasicItemCardapio.cs",
-              "RelativeDocumentMoniker": "src\\FastTech.Application\\DataTransferObjects\\BasicItemCardapio.cs",
-              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Application\\DataTransferObjects\\BasicItemCardapio.cs",
-              "RelativeToolTip": "src\\FastTech.Application\\DataTransferObjects\\BasicItemCardapio.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T20:41:28.394Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "BasicUser.cs",
-              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Application\\DataTransferObjects\\BasicUser.cs",
-              "RelativeDocumentMoniker": "src\\FastTech.Application\\DataTransferObjects\\BasicUser.cs",
-              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Application\\DataTransferObjects\\BasicUser.cs",
-              "RelativeToolTip": "src\\FastTech.Application\\DataTransferObjects\\BasicUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T20:41:27.878Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:1206080720:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
@@ -333,20 +230,514 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250704000550_Create_Table_Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Infrastructure\\Migrations\\20250704000550_Create_Table_Pedido.cs",
+              "RelativeDocumentMoniker": "src\\FastTech.Infrastructure\\Migrations\\20250704000550_Create_Table_Pedido.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Infrastructure\\Migrations\\20250704000550_Create_Table_Pedido.cs",
+              "RelativeToolTip": "src\\FastTech.Infrastructure\\Migrations\\20250704000550_Create_Table_Pedido.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T00:05:51.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppConstants.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Domain\\Constants\\AppConstants.cs",
+              "RelativeDocumentMoniker": "src\\FastTech.Domain\\Constants\\AppConstants.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Domain\\Constants\\AppConstants.cs",
+              "RelativeToolTip": "src\\FastTech.Domain\\Constants\\AppConstants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T23:14:39.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BasicPedido.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Application\\DataTransferObjects\\MessageBrokers\\BasicPedido.cs",
+              "RelativeDocumentMoniker": "src\\FastTech.Application\\DataTransferObjects\\MessageBrokers\\BasicPedido.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Application\\DataTransferObjects\\MessageBrokers\\BasicPedido.cs",
+              "RelativeToolTip": "src\\FastTech.Application\\DataTransferObjects\\MessageBrokers\\BasicPedido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T22:40:55.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Application\\DataTransferObjects\\MessageBrokers\\Pedido.cs",
+              "RelativeDocumentMoniker": "src\\FastTech.Application\\DataTransferObjects\\MessageBrokers\\Pedido.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Application\\DataTransferObjects\\MessageBrokers\\Pedido.cs",
+              "RelativeToolTip": "src\\FastTech.Application\\DataTransferObjects\\MessageBrokers\\Pedido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T22:40:03.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PedidoController.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Api\\Controllers\\PedidoController.cs",
+              "RelativeDocumentMoniker": "src\\FastTech.Api\\Controllers\\PedidoController.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Api\\Controllers\\PedidoController.cs",
+              "RelativeToolTip": "src\\FastTech.Api\\Controllers\\PedidoController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T20:42:54.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PedidoApplicationService.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Application\\Services\\PedidoApplicationService.cs",
+              "RelativeDocumentMoniker": "src\\FastTech.Application\\Services\\PedidoApplicationService.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Application\\Services\\PedidoApplicationService.cs",
+              "RelativeToolTip": "src\\FastTech.Application\\Services\\PedidoApplicationService.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAWwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T20:36:16.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PedidoMapper.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Application\\Mappings\\PedidoMapper.cs",
+              "RelativeDocumentMoniker": "src\\FastTech.Application\\Mappings\\PedidoMapper.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Application\\Mappings\\PedidoMapper.cs",
+              "RelativeToolTip": "src\\FastTech.Application\\Mappings\\PedidoMapper.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T01:04:14.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ItemCardapioMapper.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Application\\Mappings\\ItemCardapioMapper.cs",
+              "RelativeDocumentMoniker": "src\\FastTech.Application\\Mappings\\ItemCardapioMapper.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Application\\Mappings\\ItemCardapioMapper.cs",
+              "RelativeToolTip": "src\\FastTech.Application\\Mappings\\ItemCardapioMapper.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwA4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T21:02:45.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ItemCardapio.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Domain\\Entities\\ItemCardapio.cs",
+              "RelativeDocumentMoniker": "src\\FastTech.Domain\\Entities\\ItemCardapio.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Domain\\Entities\\ItemCardapio.cs",
+              "RelativeToolTip": "src\\FastTech.Domain\\Entities\\ItemCardapio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T00:59:22.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Domain\\Entities\\Pedido.cs",
+              "RelativeDocumentMoniker": "src\\FastTech.Domain\\Entities\\Pedido.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Domain\\Entities\\Pedido.cs",
+              "RelativeToolTip": "src\\FastTech.Domain\\Entities\\Pedido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T00:58:54.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ItemCardapioController.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Api\\Controllers\\ItemCardapioController.cs",
+              "RelativeDocumentMoniker": "src\\FastTech.Api\\Controllers\\ItemCardapioController.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Api\\Controllers\\ItemCardapioController.cs",
+              "RelativeToolTip": "src\\FastTech.Api\\Controllers\\ItemCardapioController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAuwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T20:51:01.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IPedidoService.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Domain\\Interfaces\\IPedidoService.cs",
+              "RelativeDocumentMoniker": "src\\FastTech.Domain\\Interfaces\\IPedidoService.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Domain\\Interfaces\\IPedidoService.cs",
+              "RelativeToolTip": "src\\FastTech.Domain\\Interfaces\\IPedidoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T20:40:07.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BasicItemCardapio.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Application\\DataTransferObjects\\MessageBrokers\\BasicItemCardapio.cs",
+              "RelativeDocumentMoniker": "src\\FastTech.Application\\DataTransferObjects\\MessageBrokers\\BasicItemCardapio.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Application\\DataTransferObjects\\MessageBrokers\\BasicItemCardapio.cs",
+              "RelativeToolTip": "src\\FastTech.Application\\DataTransferObjects\\MessageBrokers\\BasicItemCardapio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T20:34:55.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ItemCardapioService.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Domain\\Services\\ItemCardapioService.cs",
+              "RelativeDocumentMoniker": "src\\FastTech.Domain\\Services\\ItemCardapioService.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Domain\\Services\\ItemCardapioService.cs",
+              "RelativeToolTip": "src\\FastTech.Domain\\Services\\ItemCardapioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T20:39:45.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PedidoService.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Domain\\Services\\PedidoService.cs",
+              "RelativeDocumentMoniker": "src\\FastTech.Domain\\Services\\PedidoService.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Domain\\Services\\PedidoService.cs",
+              "RelativeToolTip": "src\\FastTech.Domain\\Services\\PedidoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T20:37:20.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IPedidoApplicationService.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Application\\Interfaces\\IPedidoApplicationService.cs",
+              "RelativeDocumentMoniker": "src\\FastTech.Application\\Interfaces\\IPedidoApplicationService.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Application\\Interfaces\\IPedidoApplicationService.cs",
+              "RelativeToolTip": "src\\FastTech.Application\\Interfaces\\IPedidoApplicationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T20:36:38.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IPedidoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Domain\\Interfaces\\Infrastructure\\IPedidoRepository.cs",
+              "RelativeDocumentMoniker": "src\\FastTech.Domain\\Interfaces\\Infrastructure\\IPedidoRepository.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Domain\\Interfaces\\Infrastructure\\IPedidoRepository.cs",
+              "RelativeToolTip": "src\\FastTech.Domain\\Interfaces\\Infrastructure\\IPedidoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T20:34:14.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PedidoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Infrastructure\\Data\\Repositories\\PedidoRepository.cs",
+              "RelativeDocumentMoniker": "src\\FastTech.Infrastructure\\Data\\Repositories\\PedidoRepository.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Infrastructure\\Data\\Repositories\\PedidoRepository.cs",
+              "RelativeToolTip": "src\\FastTech.Infrastructure\\Data\\Repositories\\PedidoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T20:33:08.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "IItemCardapioApplicationService.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Application\\Interfaces\\IItemCardapioApplicationService.cs",
+              "RelativeDocumentMoniker": "src\\FastTech.Application\\Interfaces\\IItemCardapioApplicationService.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Application\\Interfaces\\IItemCardapioApplicationService.cs",
+              "RelativeToolTip": "src\\FastTech.Application\\Interfaces\\IItemCardapioApplicationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T20:31:05.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PedidoConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Infrastructure\\Data\\Configurations\\PedidoConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\FastTech.Infrastructure\\Data\\Configurations\\PedidoConfiguration.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Infrastructure\\Data\\Configurations\\PedidoConfiguration.cs",
+              "RelativeToolTip": "src\\FastTech.Infrastructure\\Data\\Configurations\\PedidoConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T20:31:50.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ItemCardapioApplicationService.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Application\\Services\\ItemCardapioApplicationService.cs",
+              "RelativeDocumentMoniker": "src\\FastTech.Application\\Services\\ItemCardapioApplicationService.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Application\\Services\\ItemCardapioApplicationService.cs",
+              "RelativeToolTip": "src\\FastTech.Application\\Services\\ItemCardapioApplicationService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBIAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T20:59:42.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BasicPedido.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Application\\DataTransferObjects\\BasicPedido.cs",
+              "RelativeDocumentMoniker": "src\\FastTech.Application\\DataTransferObjects\\BasicPedido.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Application\\DataTransferObjects\\BasicPedido.cs",
+              "RelativeToolTip": "src\\FastTech.Application\\DataTransferObjects\\BasicPedido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T01:05:48.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Application\\DataTransferObjects\\Pedido.cs",
+              "RelativeDocumentMoniker": "src\\FastTech.Application\\DataTransferObjects\\Pedido.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Application\\DataTransferObjects\\Pedido.cs",
+              "RelativeToolTip": "src\\FastTech.Application\\DataTransferObjects\\Pedido.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T20:28:36.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Api\\Program.cs",
               "RelativeDocumentMoniker": "src\\FastTech.Api\\Program.cs",
               "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Api\\Program.cs",
               "RelativeToolTip": "src\\FastTech.Api\\Program.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAawDMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKYAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-02T20:18:08.032Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
+              "Title": "BasicItemCardapio.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Application\\DataTransferObjects\\BasicItemCardapio.cs",
+              "RelativeDocumentMoniker": "src\\FastTech.Application\\DataTransferObjects\\BasicItemCardapio.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Application\\DataTransferObjects\\BasicItemCardapio.cs",
+              "RelativeToolTip": "src\\FastTech.Application\\DataTransferObjects\\BasicItemCardapio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T20:41:28.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ItemCardapio.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Application\\DataTransferObjects\\ItemCardapio.cs",
+              "RelativeDocumentMoniker": "src\\FastTech.Application\\DataTransferObjects\\ItemCardapio.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Application\\DataTransferObjects\\ItemCardapio.cs",
+              "RelativeToolTip": "src\\FastTech.Application\\DataTransferObjects\\ItemCardapio.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T20:40:56.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ItemCardapioServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\Domain\\Services\\ItemCardapioServiceTests.cs",
+              "RelativeDocumentMoniker": "tests\\FastTech.Tests\\Domain\\Services\\ItemCardapioServiceTests.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\Domain\\Services\\ItemCardapioServiceTests.cs",
+              "RelativeToolTip": "tests\\FastTech.Tests\\Domain\\Services\\ItemCardapioServiceTests.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAcwCEAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T20:36:10.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PermissionLevel.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Domain\\Enums\\PermissionLevel.cs",
+              "RelativeDocumentMoniker": "src\\FastTech.Domain\\Enums\\PermissionLevel.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Domain\\Enums\\PermissionLevel.cs",
+              "RelativeToolTip": "src\\FastTech.Domain\\Enums\\PermissionLevel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T00:36:19.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UserFixtures.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\Shared\\Fixtures\\Entities\\UserFixtures.cs",
+              "RelativeDocumentMoniker": "tests\\FastTech.Tests\\Shared\\Fixtures\\Entities\\UserFixtures.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\Shared\\Fixtures\\Entities\\UserFixtures.cs",
+              "RelativeToolTip": "tests\\FastTech.Tests\\Shared\\Fixtures\\Entities\\UserFixtures.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T21:05:02.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BasicContactFixtures.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\Shared\\Fixtures\\DataTransferObjects\\BasicContactFixtures.cs",
+              "RelativeDocumentMoniker": "tests\\FastTech.Tests\\Shared\\Fixtures\\DataTransferObjects\\BasicContactFixtures.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\Shared\\Fixtures\\DataTransferObjects\\BasicContactFixtures.cs",
+              "RelativeToolTip": "tests\\FastTech.Tests\\Shared\\Fixtures\\DataTransferObjects\\BasicContactFixtures.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAowCYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T20:36:46.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "vctmp57688_353987.ContactFixtures.630a2574.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\AppData\\Local\\Temp\\TFSTemp\\vctmp57688_353987.ContactFixtures.630a2574.cs",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\Temp\\TFSTemp\\vctmp57688_353987.ContactFixtures.630a2574.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\AppData\\Local\\Temp\\TFSTemp\\vctmp57688_353987.ContactFixtures.630a2574.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\AppData\\Local\\Temp\\TFSTemp\\vctmp57688_353987.ContactFixtures.630a2574.cs [Read Only]",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAFEAAAAFAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T21:05:44.051Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RolesAuthorizationHandler.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Api\\Authorization\\RolesAuthorizationHandler.cs",
+              "RelativeDocumentMoniker": "src\\FastTech.Api\\Authorization\\RolesAuthorizationHandler.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Api\\Authorization\\RolesAuthorizationHandler.cs",
+              "RelativeToolTip": "src\\FastTech.Api\\Authorization\\RolesAuthorizationHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAawAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T21:08:39.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Domain\\Services\\Security\\TokenService.cs",
+              "RelativeDocumentMoniker": "src\\FastTech.Domain\\Services\\Security\\TokenService.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Domain\\Services\\Security\\TokenService.cs",
+              "RelativeToolTip": "src\\FastTech.Domain\\Services\\Security\\TokenService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAawCgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T21:08:39.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ItemCardapioServiceUnitTests.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\Domain\\Services\\ItemCardapioServiceUnitTests.cs",
+              "RelativeDocumentMoniker": "tests\\FastTech.Tests\\Domain\\Services\\ItemCardapioServiceUnitTests.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\Domain\\Services\\ItemCardapioServiceUnitTests.cs",
+              "RelativeToolTip": "tests\\FastTech.Tests\\Domain\\Services\\ItemCardapioServiceUnitTests.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T20:34:14.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ItemCardapioFixtures.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\Shared\\Fixtures\\Entities\\ItemCardapioFixtures.cs",
+              "RelativeDocumentMoniker": "tests\\FastTech.Tests\\Shared\\Fixtures\\Entities\\ItemCardapioFixtures.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\Shared\\Fixtures\\Entities\\ItemCardapioFixtures.cs",
+              "RelativeToolTip": "tests\\FastTech.Tests\\Shared\\Fixtures\\Entities\\ItemCardapioFixtures.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAqwDcAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T20:56:55.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "BasicContactValidationTests.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\Domain\\Validations\\BasicContactValidationTests.cs",
+              "RelativeDocumentMoniker": "tests\\FastTech.Tests\\Domain\\Validations\\BasicContactValidationTests.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\Domain\\Validations\\BasicContactValidationTests.cs",
+              "RelativeToolTip": "tests\\FastTech.Tests\\Domain\\Validations\\BasicContactValidationTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T21:02:33.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "BasicUserValidationTests.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\Domain\\Validations\\BasicUserValidationTests.cs",
+              "RelativeDocumentMoniker": "tests\\FastTech.Tests\\Domain\\Validations\\BasicUserValidationTests.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\Domain\\Validations\\BasicUserValidationTests.cs",
+              "RelativeToolTip": "tests\\FastTech.Tests\\Domain\\Validations\\BasicUserValidationTests.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T20:53:16.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "BasicUserFixtures.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\Shared\\Fixtures\\DataTransferObjects\\BasicUserFixtures.cs",
+              "RelativeDocumentMoniker": "tests\\FastTech.Tests\\Shared\\Fixtures\\DataTransferObjects\\BasicUserFixtures.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\Shared\\Fixtures\\DataTransferObjects\\BasicUserFixtures.cs",
+              "RelativeToolTip": "tests\\FastTech.Tests\\Shared\\Fixtures\\DataTransferObjects\\BasicUserFixtures.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T20:53:05.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "BasicUser.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Application\\DataTransferObjects\\BasicUser.cs",
+              "RelativeDocumentMoniker": "src\\FastTech.Application\\DataTransferObjects\\BasicUser.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\src\\FastTech.Application\\DataTransferObjects\\BasicUser.cs",
+              "RelativeToolTip": "src\\FastTech.Application\\DataTransferObjects\\BasicUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T20:41:27.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Infrastructure\\Data\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "..\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Infrastructure\\Data\\Repositories\\UserRepository.cs",
@@ -357,7 +748,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 44,
               "Title": "ApplicationDBContext.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Infrastructure\\Data\\ApplicationDBContext.cs",
               "RelativeDocumentMoniker": "..\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Infrastructure\\Data\\ApplicationDBContext.cs",
@@ -368,7 +759,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 41,
               "Title": "AppConstants.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Domain\\Constants\\AppConstants.cs",
               "RelativeDocumentMoniker": "..\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Domain\\Constants\\AppConstants.cs",
@@ -379,7 +770,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 40,
               "Title": "MPCalcHubSettings.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Domain\\Settings\\MPCalcHubSettings.cs",
               "RelativeDocumentMoniker": "..\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Domain\\Settings\\MPCalcHubSettings.cs",
@@ -390,7 +781,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 39,
               "Title": "CustomLoggerProviderConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Logging\\CustomLoggerProviderConfiguration.cs",
               "RelativeDocumentMoniker": "..\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Logging\\CustomLoggerProviderConfiguration.cs",
@@ -401,7 +792,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 45,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Program.cs",
               "RelativeDocumentMoniker": "..\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Program.cs",
@@ -412,7 +803,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 42,
               "Title": "FastTech.Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Infrastructure\\FastTech.Infrastructure.csproj",
               "RelativeDocumentMoniker": "..\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Infrastructure\\FastTech.Infrastructure.csproj",
@@ -423,7 +814,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 46,
               "Title": "CustomLoggerProvider.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Logging\\CustomLoggerProvider.cs",
               "RelativeDocumentMoniker": "..\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Logging\\CustomLoggerProvider.cs",
@@ -434,7 +825,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 47,
               "Title": "UserFilter.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Filters\\UserFilter.cs",
               "RelativeDocumentMoniker": "..\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Filters\\UserFilter.cs",
@@ -445,7 +836,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 48,
               "Title": "PermissionLevel.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Domain\\Enums\\PermissionLevel.cs",
               "RelativeDocumentMoniker": "..\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Domain\\Enums\\PermissionLevel.cs",
@@ -456,7 +847,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 49,
               "Title": "ContactConsumerService.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Robots\\RabbitMQ\\ContactConsumerService.cs",
               "RelativeDocumentMoniker": "..\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Robots\\RabbitMQ\\ContactConsumerService.cs",
@@ -467,7 +858,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 50,
               "Title": "BaseRabbitMQConsumerService.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Robots\\RabbitMQ\\BaseRabbitMQConsumerService.cs",
               "RelativeDocumentMoniker": "..\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Robots\\RabbitMQ\\BaseRabbitMQConsumerService.cs",
@@ -478,7 +869,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 51,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "..\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Controllers\\AccountController.cs",
@@ -489,7 +880,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 52,
               "Title": "RolesRequirement.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Authorization\\RolesRequirement.cs",
               "RelativeDocumentMoniker": "..\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Authorization\\RolesRequirement.cs",
@@ -500,7 +891,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 53,
               "Title": "RolesAuthorizationHandler.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Authorization\\RolesAuthorizationHandler.cs",
               "RelativeDocumentMoniker": "..\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Authorization\\RolesAuthorizationHandler.cs",

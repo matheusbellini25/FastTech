@@ -15,6 +15,9 @@ public class AppConstants
         {
             public const string ItemCardapioInsert = "ItemCardapio.insert";
             public const string ItemCardapioUpdate = "ItemCardapio.update";
+
+            public const string PedidoInsert = "Pedido.insert";
+            public const string PedidoUpdate = "Pedido.update";
         }
     }
 }

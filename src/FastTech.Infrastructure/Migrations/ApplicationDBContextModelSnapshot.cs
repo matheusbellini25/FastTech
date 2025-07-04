@@ -71,24 +71,44 @@ namespace FastTech.Infrastructure.Migrations
                     b.ToTable("ItemCardapio", (string)null);
                 });
 
-            modelBuilder.Entity("FastTech.Domain.Entities.StateDDD", b =>
+            modelBuilder.Entity("FastTech.Domain.Entities.Pedido", b =>
                 {
-                    b.Property<int>("DDD")
+                    b.Property<Guid>("Id")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<Guid>("CreatedBy")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("FormaDeEntrega")
                         .HasColumnType("int");
 
-                    b.Property<string>("Region")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
+                    b.Property<Guid>("ItemCardapioId")
+                        .HasMaxLength(50)
+                        .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("State")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
+                    b.Property<bool>("Removed")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false);
 
-                    b.HasKey("DDD");
+                    b.Property<DateTime?>("RemovedAt")
+                        .HasColumnType("datetime2");
 
-                    b.ToTable("StateDDD");
+                    b.Property<Guid?>("RemovedBy")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<Guid?>("UpdatedBy")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Pedido", (string)null);
                 });
 
             modelBuilder.Entity("FastTech.Domain.Entities.User", b =>

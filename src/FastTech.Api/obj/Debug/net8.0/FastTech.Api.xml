@@ -38,6 +38,23 @@
             <param name="model">Objeto com as propriedades para editar um Item do Cardapio</param>
             <returns>Um objeto do Item do Cardapio criado</returns>
         </member>
+        <member name="T:FastTech.Api.Controllers.PedidoController">
+            <summary>
+            Pedido controller
+            </summary>
+        </member>
+        <member name="M:FastTech.Api.Controllers.PedidoController.#ctor(Microsoft.Extensions.Logging.ILogger{FastTech.Api.Controllers.PedidoController},FastTech.Application.Interfaces.IPedidoApplicationService)">
+            <summary>
+            Pedido controller
+            </summary>
+        </member>
+        <member name="M:FastTech.Api.Controllers.PedidoController.Create(System.Collections.Generic.List{FastTech.Application.DataTransferObjects.BasicPedido})">
+            <summary>
+            Criar um novo Pedido
+            </summary>
+            <param name="listModel">Objeto com as propriedades para criar um novo Pedido</param>
+            <returns>Um objeto do Pedido criado</returns>
+        </member>
         <member name="T:FastTech.Api.Controllers.UserController">
             <summary>
             User controller

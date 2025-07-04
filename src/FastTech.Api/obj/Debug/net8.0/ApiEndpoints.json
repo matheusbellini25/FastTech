@@ -26,7 +26,7 @@
   {
     "ContainingType": "FastTech.Api.Controllers.ItemCardapioController",
     "Method": "Create",
-    "RelativePath": "ItemCardapios",
+    "RelativePath": "ItemCardapio",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -50,7 +50,7 @@
   {
     "ContainingType": "FastTech.Api.Controllers.ItemCardapioController",
     "Method": "Update",
-    "RelativePath": "ItemCardapios",
+    "RelativePath": "ItemCardapio",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -64,6 +64,30 @@
     "ReturnTypes": [
       {
         "Type": "FastTech.Application.DataTransferObjects.ItemCardapio",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FastTech.Api.Controllers.PedidoController",
+    "Method": "Create",
+    "RelativePath": "Pedido",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "listModel",
+        "Type": "System.Collections.Generic.List\u00601[[FastTech.Application.DataTransferObjects.BasicPedido, FastTech.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FastTech.Application.DataTransferObjects.Pedido",
         "MediaTypes": [
           "application/json"
         ],

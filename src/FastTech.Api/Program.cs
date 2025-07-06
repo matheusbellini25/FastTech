@@ -158,6 +158,8 @@ builder.Services.AddMemoryCache();
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IItemCardapioRepository, ItemCardapioRepository>();
+builder.Services.AddScoped<IPedidoRepository, PedidoRepository>();
+
 
 #endregion
 
@@ -166,6 +168,9 @@ builder.Services.AddScoped<IItemCardapioRepository, ItemCardapioRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddScoped<IItemCardapioService, ItemCardapioService>();
+builder.Services.AddScoped<IPedidoService, PedidoService>();
+builder.Services.AddScoped<IPedidoProducerService, PedidoProducerService>();
+
 
 #endregion
 
@@ -173,6 +178,7 @@ builder.Services.AddScoped<IItemCardapioService, ItemCardapioService>();
 
 builder.Services.AddScoped<IUserApplicationService, UserApplicationService>();
 builder.Services.AddScoped<ITokenApplicationService, TokenApplicationService>();
+builder.Services.AddScoped<IPedidoApplicationService, PedidoApplicationService>();
 builder.Services.AddScoped<IItemCardapioApplicationService, ItemCardapioApplicationService>();
 
 #endregion
@@ -187,12 +193,6 @@ builder.Services.AddSingleton<IAuthorizationHandler, RolesAuthorizationHandler>(
 
 builder.Services.AddScoped<IAuthorizationFilter, UserFilter>();
 builder.Services.AddScoped(x => new UserData());
-
-#endregion
-
-#region RabbitMQConsumers
-
-builder.Services.AddHostedService<ItemCardapioConsumerService>();
 
 #endregion
 

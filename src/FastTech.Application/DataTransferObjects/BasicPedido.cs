@@ -5,22 +5,25 @@ namespace FastTech.Application.DataTransferObjects
 {
     public class BasicPedido
     {
-        [JsonPropertyName("itemCardapioId")]
+        [JsonPropertyName("ItemCardapioId")]
         [Required(ErrorMessage = "O campo ItemCardapioId é obrigatório.")]
-        [StringLength(100, MinimumLength = 2, ErrorMessage = "O nome deve ter entre 2 e 100 caracteres.")]
         public Guid ItemCardapioId { get; set; }
 
-        [JsonPropertyName("formaDeEntrega")]
-        [Required(ErrorMessage = "O campo Descrição é obrigatório.")]
-        [StringLength(300, ErrorMessage = "A descrição pode ter no máximo 300 caracteres.")]
+        [JsonPropertyName("FormaDeEntrega")]
+        [Required(ErrorMessage = "O campo FormaDeEntrega é obrigatório.")]
         public int FormaDeEntrega { get; set; }
+
+        [JsonPropertyName("Ativo")]
+        [Required(ErrorMessage = "O campo Ativo é obrigatório.")]
+        public bool Ativo { get; set; }
 
         public BasicPedido() : base() { }
 
-        public BasicPedido(Guid itemCardapioId, int formaDeEntrega)
+        public BasicPedido(Guid itemCardapioId, int formaDeEntrega, bool ativo )
         {
             ItemCardapioId = itemCardapioId;
             FormaDeEntrega = formaDeEntrega;
+            Ativo = ativo;
         }
     }
 }

@@ -80,6 +80,22 @@ public class PedidoApplicationService(IPedidoService PedidoService, IMapper mapp
         }
     }
 
+    public async Task PublishAsync(string message, string rountingKey)
+    {
+        switch (rountingKey)
+        {
+            case AppConstants.Routes.RabbitMQ.PedidoInsert:
+                var PedidoInsert = JsonSerializer.Deserialize<MSG.BasicPedido>(message);
+                await Add(PedidoInsert);
+                break;
+
+            case AppConstants.Routes.RabbitMQ.PedidoUpdate:
+                var PedidoUpdate = JsonSerializer.Deserialize<MSG.Pedido>(message);
+                await Update(PedidoUpdate);
+                break;
+        }
+    }
+
     public void Dispose()
     {
         _PedidoService.Dispose();

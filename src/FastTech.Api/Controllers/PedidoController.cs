@@ -3,40 +3,43 @@ using Microsoft.AspNetCore.Mvc;
 using FastTech.Application.DataTransferObjects;
 using FastTech.Application.Interfaces;
 using static FastTech.Domain.Constants.AppConstants;
+using System.Text.Json;
 
 namespace FastTech.Api.Controllers
 {
-    /// <summary>
-    /// Pedido controller
-    /// </summary>
     [Route("Pedido")]
-    public class PedidoController(ILogger<PedidoController> logger, IPedidoApplicationService PedidoApplicationService) : BaseController(logger)
+    public class PedidoController(
+        ILogger<PedidoController> logger,
+        IPedidoApplicationService pedidoApplicationService,
+        IPedidoProducerService pedidoProducerService
+    ) : BaseController(logger)
     {
-        private readonly IPedidoApplicationService _PedidoApplicationService = PedidoApplicationService;
+        private readonly IPedidoApplicationService _pedidoApplicationService = pedidoApplicationService;
+        private readonly IPedidoProducerService _pedidoProducerService = pedidoProducerService;
 
         /// <summary>
         /// Criar um novo Pedido
         /// </summary>
         /// <param name="listModel">Objeto com as propriedades para criar um novo Pedido</param>
-        /// <returns>Um objeto do Pedido criado</returns>
+        /// <returns>Status de envio à fila</returns>
         [HttpPost]
         [Authorize(Policy = Policies.Cliente)]
         [Produces("application/json")]
-        [ProducesResponseType(typeof(Pedido), StatusCodes.Status200OK)]
-        public async Task<object> Create([FromBody] List<BasicPedido> listModel)
+        [ProducesResponseType(typeof(object), StatusCodes.Status200OK)]
+        public async Task<IActionResult> Create([FromBody] List<BasicPedido> listModel)
         {
             try
             {
-                List<Pedido> pedido = new List<Pedido>();
-                foreach (var item in listModel)
-                {
-                    pedido.Add(await _PedidoApplicationService.Add(item));
-                }
-                return Ok(pedido);
+                // Publicar os pedidos na fila
+                string jsonMessage = JsonSerializer.Serialize(listModel);
+
+                await _pedidoProducerService.PublishMessageAsync(jsonMessage);
+
+                return Ok(new { message = "Pedidos enviados para a fila com sucesso." });
             }
             catch (Exception ex)
             {
-                return BadRequest(ex.Message);
+                return BadRequest(new { error = ex.Message });
             }
         }
     }

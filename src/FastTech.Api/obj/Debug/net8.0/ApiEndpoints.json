@@ -25,6 +25,24 @@
   },
   {
     "ContainingType": "FastTech.Api.Controllers.ItemCardapioController",
+    "Method": "GetAll",
+    "RelativePath": "ItemCardapio",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "FastTech.Application.DataTransferObjects.ItemCardapio",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FastTech.Api.Controllers.ItemCardapioController",
     "Method": "Create",
     "RelativePath": "ItemCardapio",
     "HttpMethod": "POST",
@@ -87,7 +105,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "FastTech.Application.DataTransferObjects.Pedido",
+        "Type": "System.Object",
         "MediaTypes": [
           "application/json"
         ],

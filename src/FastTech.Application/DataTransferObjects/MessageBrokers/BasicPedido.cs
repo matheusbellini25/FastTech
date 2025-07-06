@@ -2,5 +2,6 @@ namespace FastTech.Application.DataTransferObjects.MessageBrokers;
 
 public record BasicPedido(
     Guid ItemPedidoId,
-    int FormaDeEntrega
+    int FormaDeEntrega,
+    bool Ativo
 );

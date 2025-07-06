@@ -15,6 +15,27 @@ namespace FastTech.Api.Controllers
         private readonly IItemCardapioApplicationService _ItemCardapioApplicationService = ItemCardapioApplicationService;
 
         /// <summary>
+        /// Busca os itens do Cardápio
+        /// </summary>
+        /// <returns>Itens do Cardápio</returns>
+        [HttpGet]
+        [Authorize(Policy = Policies.Cliente)]
+        [Produces("application/json")]
+        [ProducesResponseType(typeof(ItemCardapio), StatusCodes.Status200OK)]
+        public async Task<object> GetAll()
+        {
+            try
+            {
+                var ItemCardapio = await _ItemCardapioApplicationService.GetAll();
+                return Ok(ItemCardapio);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        /// <summary>
         /// Criar um novo Item do Cardapio
         /// </summary>
         /// <param name="model">Objeto com as propriedades para criar um novo ItemCardapio</param>

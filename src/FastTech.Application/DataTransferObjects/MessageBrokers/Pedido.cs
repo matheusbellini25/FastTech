@@ -10,5 +10,6 @@ public record Pedido(
     DateTime? RemovedAt,
     Guid? RemovedBy,
     Guid ItemPedidoId,
-    int FormaDeEntrega
+    int FormaDeEntrega,
+    bool Ativo
 );

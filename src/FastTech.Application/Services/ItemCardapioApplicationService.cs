@@ -14,6 +14,13 @@ public class ItemCardapioApplicationService(IItemCardapioService ItemCardapioSer
     private readonly IItemCardapioService _ItemCardapioService = ItemCardapioService;
     private readonly IMapper _mapper = mapper;
 
+    public async Task<List<ItemCardapio>> GetAll()
+    {
+        var itemCardapios =  _ItemCardapioService.GetAll(); 
+        return _mapper.Map<List<ItemCardapio>>(itemCardapios);
+    }
+
+
     public async Task<ItemCardapio> Add(BasicItemCardapio model)
     {
         var ItemCardapio = _mapper.Map<EN.ItemCardapio>(model);

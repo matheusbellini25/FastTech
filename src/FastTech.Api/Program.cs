@@ -87,7 +87,7 @@ builder.Services.AddControllers(options => options.Filters.Add<UserFilter>()).Ad
     settings.DateFormatString = "yyyy-MM-ddTHH:mm:ss";
     settings.Culture = new CultureInfo("en-US");
     settings.Converters.Add(new StringEnumConverter());
-    settings.ContractResolver = new DefaultContractResolver() { NamingStrategy = new SnakeCaseNamingStrategy() };
+    settings.ContractResolver = new DefaultContractResolver(); // usa PascalCase (padrão)
 });
 
 builder.Services.AddSwaggerGen(c =>

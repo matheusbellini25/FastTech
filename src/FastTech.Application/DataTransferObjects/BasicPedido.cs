@@ -14,12 +14,11 @@ namespace FastTech.Application.DataTransferObjects
         public int FormaDeEntrega { get; set; }
 
         [JsonPropertyName("Ativo")]
-        [Required(ErrorMessage = "O campo Ativo é obrigatório.")]
-        public bool Ativo { get; set; }
+        public bool Ativo { get; set; } = true;
 
         public BasicPedido() : base() { }
 
-        public BasicPedido(Guid itemCardapioId, int formaDeEntrega, bool ativo )
+        public BasicPedido(Guid itemCardapioId, int formaDeEntrega, bool ativo)
         {
             ItemCardapioId = itemCardapioId;
             FormaDeEntrega = formaDeEntrega;

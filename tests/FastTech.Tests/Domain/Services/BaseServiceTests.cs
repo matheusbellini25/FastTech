@@ -1,4 +1,3 @@
-using FastTech.Domain.Entities;
 using FastTech.Infrastructure.Data;
 using FastTech.Tests.Shared.DataBase;
 

@@ -1,6 +1,6 @@
+using FastTech.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using FastTech.Infrastructure.Data;
 
 namespace FastTech.Tests.Shared.DataBase;
 

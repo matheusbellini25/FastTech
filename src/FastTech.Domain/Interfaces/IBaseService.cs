@@ -1,4 +1,3 @@
-using FastTech.Domain.Entities;
 using FastTech.Domain.Entities.Interfaces;
 using FastTech.Domain.Interfaces.Infrastructure;
 

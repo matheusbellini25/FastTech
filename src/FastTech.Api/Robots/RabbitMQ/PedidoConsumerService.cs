@@ -1,27 +1,25 @@
-using Microsoft.Extensions.Configuration;
+using FastTech.Api.Robots.RabbitMQ;
+using FastTech.Application.DataTransferObjects;
+using FastTech.Application.Interfaces;
+using Microsoft.Extensions.Hosting;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System.Text;
 using System.Text.Json;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using System;
-using FastTech.Application.DataTransferObjects.MessageBrokers;
-using FastTech.Api.Robots.RabbitMQ;
 
-public class PedidoConsumerService : IPedidoConsumerService
+public class PedidoConsumerService : BackgroundService
 {
     private readonly IConfiguration _configuration;
+    private readonly IServiceScopeFactory _scopeFactory;
 
-    public PedidoConsumerService(IConfiguration configuration)
+    public PedidoConsumerService(IConfiguration configuration, IServiceScopeFactory scopeFactory)
     {
         _configuration = configuration;
+        _scopeFactory = scopeFactory;
     }
 
-    public async Task<List<Pedido>> GetPedidosAsync()
+    protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {
-        var pedidos = new List<Pedido>();
-
         var rabbitConfig = _configuration.GetSection("RabbitMQ");
 
         var factory = new ConnectionFactory
@@ -32,13 +30,13 @@ public class PedidoConsumerService : IPedidoConsumerService
             Port = int.TryParse(rabbitConfig["Port"], out var port) ? port : 5672
         };
 
-        using var connection = await factory.CreateConnectionAsync();
-        using var channel = await connection.CreateChannelAsync();
+        var connection = await factory.CreateConnectionAsync();
+        var channel = await connection.CreateChannelAsync();
 
         var queueName = rabbitConfig["QueueName"];
-        var consumer = new AsyncEventingBasicConsumer(channel);
+        await channel.QueueDeclareAsync(queue: queueName, durable: true, exclusive: false, autoDelete: false);
 
-        var tcs = new TaskCompletionSource<List<Pedido>>();
+        var consumer = new AsyncEventingBasicConsumer(channel);
 
         consumer.ReceivedAsync += async (sender, ea) =>
         {
@@ -47,28 +45,31 @@ public class PedidoConsumerService : IPedidoConsumerService
 
             try
             {
-                var lista = JsonSerializer.Deserialize<List<Pedido>>(message, new JsonSerializerOptions
+                var pedidos = JsonSerializer.Deserialize<List<BasicPedido>>(message, new JsonSerializerOptions
                 {
                     PropertyNameCaseInsensitive = true
                 });
 
-                if (lista != null)
-                    pedidos.AddRange(lista);
+                if (pedidos is not null)
+                {
+                    using var scope = _scopeFactory.CreateScope();
+                    var pedidoAppService = scope.ServiceProvider.GetRequiredService<IPedidoApplicationService>();
+
+                    foreach (var pedido in pedidos)
+                        await pedidoAppService.Add(pedido);
+                }
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Erro ao processar: {ex.Message}");
+                Console.WriteLine($"Erro ao processar mensagem: {ex.Message}");
             }
 
-            tcs.TrySetResult(pedidos);
             await Task.CompletedTask;
         };
 
         await channel.BasicConsumeAsync(queue: queueName, autoAck: true, consumer: consumer);
 
-        // Aguarda a primeira mensagem ou timeout
-        var result = await Task.WhenAny(tcs.Task, Task.Delay(5000)); // timeout opcional
-
-        return tcs.Task.IsCompleted ? tcs.Task.Result : new List<Pedido>();
+        await Task.Delay(Timeout.Infinite, stoppingToken);
     }
 }
+

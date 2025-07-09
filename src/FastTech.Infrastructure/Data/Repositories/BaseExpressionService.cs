@@ -1,7 +1,6 @@
-using System;
-using System.Linq.Expressions;
-using Microsoft.EntityFrameworkCore;
 using FastTech.Domain.Entities.Interfaces;
+using Microsoft.EntityFrameworkCore;
+using System.Linq.Expressions;
 
 namespace FastTech.Infrastructure.Data.Repositories;
 
@@ -9,7 +8,7 @@ public abstract class BaseExpressionService<T> where T : class, IBaseEntity
 {
     protected readonly ApplicationDBContext Context;
 
-    protected BaseExpressionService(ApplicationDBContext context) : base() 
+    protected BaseExpressionService(ApplicationDBContext context) : base()
     {
         Context = context;
     }
@@ -23,7 +22,7 @@ public abstract class BaseExpressionService<T> where T : class, IBaseEntity
             query = query.AsTracking();
         else
             query = query.AsNoTracking();
-        
+
         return query.AsQueryable();
     }
 }

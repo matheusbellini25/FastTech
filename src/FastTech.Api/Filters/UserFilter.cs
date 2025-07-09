@@ -1,11 +1,11 @@
-using System.Security.Claims;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Filters;
-using Microsoft.Extensions.Options;
 using FastTech.Application.Interfaces;
 using FastTech.Domain.Entities;
 using FastTech.Domain.Settings;
 using FastTech.Infrastructure.Helper;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Filters;
+using Microsoft.Extensions.Options;
+using System.Security.Claims;
 
 namespace FastTech.Api.Filters;
 
@@ -19,7 +19,7 @@ public class UserFilter(UserData userData, ITokenApplicationService tokenApplica
     {
         if (context.Filters.Any(f => f is SkipUserFilterAttribute))
             return;
-        
+
         var user = context.HttpContext.User;
         var userId = user?.Claims?.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value;
 

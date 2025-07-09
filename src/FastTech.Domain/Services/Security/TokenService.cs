@@ -1,13 +1,11 @@
-using System;
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
-using System.Text;
-using Microsoft.Extensions.Caching.Memory;
-using Microsoft.Extensions.Options;
-using Microsoft.IdentityModel.Tokens;
 using FastTech.Domain.Entities;
 using FastTech.Domain.Interfaces.Security;
 using FastTech.Domain.Settings;
+using Microsoft.Extensions.Caching.Memory;
+using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 
 namespace FastTech.Domain.Services.Security;
 

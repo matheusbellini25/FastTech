@@ -1,7 +1,6 @@
+using FastTech.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using FastTech.Domain.Entities;
-using FastTech.Domain.Enums;
 
 namespace FastTech.Infrastructure.Data.Configurations;
 

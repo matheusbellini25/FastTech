@@ -1,5 +1,5 @@
-using System.Text.Json.Serialization;
 using FastTech.Domain.Enums;
+using System.Text.Json.Serialization;
 
 namespace FastTech.Application.DataTransferObjects;
 

@@ -1,8 +1,5 @@
 ﻿using RabbitMQ.Client;
 using System.Text;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using FastTech.Api.Robots.RabbitMQ;
 
 public class PedidoProducerService : IPedidoProducerService
 {
@@ -72,7 +69,7 @@ public class PedidoProducerService : IPedidoProducerService
             durable: true, // Recomendado para DLQ
             exclusive: false,
             autoDelete: false);
-        
+
         await channel.QueueBindAsync(
             queue: _queueName,
             exchange: "topic_exchange",

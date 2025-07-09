@@ -23,7 +23,7 @@ public class UserService(
             throw new Exception("O usuário já existe.");
 
         entity.PrepareToInsert(_userData.Id);
-        
+
         return await base.Add(entity);
     }
 

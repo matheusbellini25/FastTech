@@ -44,7 +44,7 @@ public abstract class BaseRepository<T>(ApplicationDBContext context) : BaseExpr
     }
 
     public virtual IQueryable<T> FindBy(Expression<Func<T, bool>> expression)
-    {        
+    {
         return Context.Set<T>().Where(expression).Where(x => x.Removed == false).AsQueryable();
     }
 

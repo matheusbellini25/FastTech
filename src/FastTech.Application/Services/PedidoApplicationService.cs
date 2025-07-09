@@ -1,9 +1,8 @@
-using System.Text.Json;
 using AutoMapper;
 using FastTech.Application.DataTransferObjects;
-using FastTech.Application.Interfaces;
 using FastTech.Domain.Constants;
 using FastTech.Domain.Interfaces;
+using System.Text.Json;
 using EN = FastTech.Domain.Entities;
 using MSG = FastTech.Application.DataTransferObjects.MessageBrokers;
 
@@ -28,7 +27,7 @@ public class PedidoApplicationService(IPedidoService PedidoService, IMapper mapp
         var Pedido = await _PedidoService.GetById(model.Id, include: false, tracking: true);
         if (Pedido == null)
             throw new Exception("O Item do Cardapio não existe.");
-            
+
         _mapper.Map(model, Pedido);
 
         Pedido = await _PedidoService.Update(Pedido);
@@ -50,7 +49,7 @@ public class PedidoApplicationService(IPedidoService PedidoService, IMapper mapp
         var Pedido = await _PedidoService.GetById(model.Id, include: false, tracking: true);
         if (Pedido == null)
             throw new Exception("O Item do Cardapio não existe.");
-            
+
         _mapper.Map(model, Pedido);
 
         Pedido = await _PedidoService.Update(Pedido);
@@ -66,7 +65,7 @@ public class PedidoApplicationService(IPedidoService PedidoService, IMapper mapp
 
     public async Task Consumer(string message, string rountingKey)
     {
-        switch(rountingKey)
+        switch (rountingKey)
         {
             case AppConstants.Routes.RabbitMQ.PedidoInsert:
                 var PedidoInsert = JsonSerializer.Deserialize<MSG.BasicPedido>(message);

@@ -1,7 +1,7 @@
-using Microsoft.AspNetCore.Mvc;
 using FastTech.Api.Filters;
 using FastTech.Application.DataTransferObjects;
 using FastTech.Application.Interfaces;
+using Microsoft.AspNetCore.Mvc;
 
 namespace FastTech.Api.Controllers
 {

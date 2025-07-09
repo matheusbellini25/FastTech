@@ -1,7 +1,7 @@
-using System.ComponentModel.DataAnnotations;
 using FastTech.Domain.Entities;
 using FastTech.Domain.Interfaces;
 using FastTech.Domain.Interfaces.Infrastructure;
+using System.ComponentModel.DataAnnotations;
 
 namespace FastTech.Domain.Services;
 
@@ -25,7 +25,7 @@ public class ItemCardapioService(IItemCardapioRepository ItemCardapioRepository,
 
         if (ItemCardapio != null)
             throw new ValidationException("O ItemCardapio já existe.");
-        
+
         return await base.Add(entity);
     }
 

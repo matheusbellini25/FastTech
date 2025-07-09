@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using DTO = FastTech.Application.DataTransferObjects;
 using FastTech.Domain.Entities;
+using DTO = FastTech.Application.DataTransferObjects;
 using MSG = FastTech.Application.DataTransferObjects.MessageBrokers;
 
 
@@ -8,7 +8,8 @@ namespace FastTech.Application.Mappings
 {
     public class PedidoMapper : Profile
     {
-        public PedidoMapper() {
+        public PedidoMapper()
+        {
             CreateMap<Pedido, DTO.Pedido>()
             .ConstructUsing(src => new DTO.Pedido())
             .ReverseMap()

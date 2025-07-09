@@ -1,7 +1,7 @@
 using Bogus;
-using EN = FastTech.Domain.Entities;
-using DTO = FastTech.Application.DataTransferObjects;
 using FastTech.Tests.Shared.Fixtures.Utils;
+using DTO = FastTech.Application.DataTransferObjects;
+using EN = FastTech.Domain.Entities;
 
 namespace FastTech.Tests.Shared.Fixtures.Entities;
 

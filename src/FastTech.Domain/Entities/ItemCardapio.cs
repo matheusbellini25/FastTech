@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc.ModelBinding;
-
-namespace FastTech.Domain.Entities;
+﻿namespace FastTech.Domain.Entities;
 
 public class ItemCardapio : BaseEntity
 {

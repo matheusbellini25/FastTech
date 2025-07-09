@@ -1,5 +1,5 @@
-using Microsoft.AspNetCore.Authorization;
 using FastTech.Domain.Enums;
+using Microsoft.AspNetCore.Authorization;
 
 namespace FastTech.Api.Authorization;
 

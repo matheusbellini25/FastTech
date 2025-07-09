@@ -1,6 +1,6 @@
-using Microsoft.EntityFrameworkCore;
 using FastTech.Domain.Entities;
 using FastTech.Domain.Interfaces.Infrastructure;
+using Microsoft.EntityFrameworkCore;
 
 namespace FastTech.Infrastructure.Data.Repositories;
 

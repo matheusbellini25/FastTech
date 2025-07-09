@@ -1,10 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using AutoMapper;
-using DTO = FastTech.Application.DataTransferObjects;
 using FastTech.Domain.Entities;
+using DTO = FastTech.Application.DataTransferObjects;
 
 namespace FastTech.Application.Mappings;
 

@@ -1,8 +1,5 @@
-using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.IdentityModel.Tokens;
-using FastTech.Domain.Enums;
-using FastTech.Infrastructure.Extensions;
+using System.Security.Claims;
 
 namespace FastTech.Api.Authorization;
 

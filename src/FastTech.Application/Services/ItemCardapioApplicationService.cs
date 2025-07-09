@@ -1,9 +1,8 @@
-using System.Text.Json;
 using AutoMapper;
 using FastTech.Application.DataTransferObjects;
-using FastTech.Application.Interfaces;
 using FastTech.Domain.Constants;
 using FastTech.Domain.Interfaces;
+using System.Text.Json;
 using EN = FastTech.Domain.Entities;
 using MSG = FastTech.Application.DataTransferObjects.MessageBrokers;
 
@@ -16,7 +15,7 @@ public class ItemCardapioApplicationService(IItemCardapioService ItemCardapioSer
 
     public async Task<List<ItemCardapio>> GetAll()
     {
-        var itemCardapios =  _ItemCardapioService.GetAll(); 
+        var itemCardapios = _ItemCardapioService.GetAll();
         return _mapper.Map<List<ItemCardapio>>(itemCardapios);
     }
 
@@ -35,7 +34,7 @@ public class ItemCardapioApplicationService(IItemCardapioService ItemCardapioSer
         var ItemCardapio = await _ItemCardapioService.GetById(model.Id, include: false, tracking: true);
         if (ItemCardapio == null)
             throw new Exception("O Item do Cardapio não existe.");
-            
+
         _mapper.Map(model, ItemCardapio);
 
         ItemCardapio = await _ItemCardapioService.Update(ItemCardapio);
@@ -57,7 +56,7 @@ public class ItemCardapioApplicationService(IItemCardapioService ItemCardapioSer
         var ItemCardapio = await _ItemCardapioService.GetById(model.Id, include: false, tracking: true);
         if (ItemCardapio == null)
             throw new Exception("O Item do Cardapio não existe.");
-            
+
         _mapper.Map(model, ItemCardapio);
 
         ItemCardapio = await _ItemCardapioService.Update(ItemCardapio);
@@ -73,7 +72,7 @@ public class ItemCardapioApplicationService(IItemCardapioService ItemCardapioSer
 
     public async Task Consumer(string message, string rountingKey)
     {
-        switch(rountingKey)
+        switch (rountingKey)
         {
             case AppConstants.Routes.RabbitMQ.ItemCardapioInsert:
                 var ItemCardapioInsert = JsonSerializer.Deserialize<MSG.BasicItemCardapio>(message);

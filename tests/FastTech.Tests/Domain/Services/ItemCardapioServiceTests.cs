@@ -1,22 +1,20 @@
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+using AutoMapper;
 using FastTech.Api.Controllers;
-using EN = FastTech.Domain.Entities;
+using FastTech.Application.DataTransferObjects;
+using FastTech.Application.Interfaces;
+using FastTech.Application.Mappings;
+using FastTech.Application.Services;
 using FastTech.Domain.Interfaces;
 using FastTech.Domain.Interfaces.Infrastructure;
 using FastTech.Domain.Services;
 using FastTech.Infrastructure.Data;
 using FastTech.Infrastructure.Data.Repositories;
-using FastTech.Application.DataTransferObjects;
-using AutoMapper;
-using Microsoft.Extensions.Logging.Abstractions;
-using FastTech.Application.Interfaces;
-using FastTech.Application.Services;
-using FastTech.Application.Mappings;
 using FastTech.Tests.Shared.Fixtures.DataTransferObjects;
-using FastTech.Tests.Shared.Fixtures;
 using FastTech.Tests.Shared.Fixtures.Utils;
-using FastTech.Tests.Shared.Fixtures.Entities;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging.Abstractions;
+using EN = FastTech.Domain.Entities;
 
 namespace FastTech.Tests.Domain.Services
 {
@@ -100,7 +98,7 @@ namespace FastTech.Tests.Domain.Services
             var updatedItemCardapio = Assert.IsType<ItemCardapio>(okResult.Value);
             Assert.NotNull(updatedItemCardapio);
             Assert.Equal("Updated Name", updatedItemCardapio.Nome);
-        }       
+        }
 
         public async Task InitializeAsync()
         {

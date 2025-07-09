@@ -1,6 +1,6 @@
+using FastTech.Domain.Enums;
 using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
-using FastTech.Domain.Enums;
 
 namespace FastTech.Application.DataTransferObjects;
 

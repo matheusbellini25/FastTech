@@ -1,6 +1,6 @@
+using FastTech.Domain.Entities.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using FastTech.Domain.Entities.Interfaces;
 
 namespace FastTech.Infrastructure.Data.Configurations;
 

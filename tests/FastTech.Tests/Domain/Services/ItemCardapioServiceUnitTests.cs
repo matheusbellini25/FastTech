@@ -1,13 +1,10 @@
-﻿using Moq;
-using Xunit;
-using FastTech.Application.Interfaces;
-using FastTech.Domain.Entities;
+﻿using FastTech.Domain.Entities;
 using FastTech.Domain.Interfaces;
-using FastTech.Domain.Services;
-using EN = FastTech.Domain.Entities;
-
 using FastTech.Domain.Interfaces.Infrastructure;
+using FastTech.Domain.Services;
 using FastTech.Tests.Shared.Fixtures.Entities;
+using Moq;
+using EN = FastTech.Domain.Entities;
 
 public class ItemCardapioServiceUnitTests
 {

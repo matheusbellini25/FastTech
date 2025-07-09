@@ -1,6 +1,6 @@
 using AutoMapper;
-using DTO = FastTech.Application.DataTransferObjects;
 using FastTech.Domain.Entities;
+using DTO = FastTech.Application.DataTransferObjects;
 using MSG = FastTech.Application.DataTransferObjects.MessageBrokers;
 
 namespace FastTech.Application.Mappings;

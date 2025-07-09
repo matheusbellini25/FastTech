@@ -9,8 +9,8 @@ public record ItemCardapio(
     bool Removed,
     DateTime? RemovedAt,
     Guid? RemovedBy,
-    string Name, 
-    int DDD, 
-    string PhoneNumber, 
+    string Name,
+    int DDD,
+    string PhoneNumber,
     string Email
 );

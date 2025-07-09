@@ -1,34 +1,33 @@
-using System.Diagnostics;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.OpenApi.Models;
+using FastTech.Api.Authorization;
+using FastTech.Api.Filters;
 using FastTech.Api.Logging;
+using FastTech.Application.DataTransferObjects;
+using FastTech.Application.Interfaces;
+using FastTech.Application.Services;
+using FastTech.Domain.Entities;
+using FastTech.Domain.Enums;
 using FastTech.Domain.Interfaces;
 using FastTech.Domain.Interfaces.Infrastructure;
+using FastTech.Domain.Interfaces.Security;
 using FastTech.Domain.Services;
+using FastTech.Domain.Services.Security;
+using FastTech.Domain.Settings;
 using FastTech.Infrastructure.Data;
 using FastTech.Infrastructure.Data.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
-using Newtonsoft.Json;
-using System.Globalization;
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Converters;
-using System.Reflection;
-using FastTech.Application.Interfaces;
-using FastTech.Application.Services;
-using FastTech.Domain.Enums;
 using Microsoft.AspNetCore.Authorization;
-using static FastTech.Domain.Constants.AppConstants;
-using FastTech.Application.DataTransferObjects;
-using FastTech.Domain.Interfaces.Security;
-using FastTech.Domain.Services.Security;
-using FastTech.Domain.Settings;
-using FastTech.Domain.Entities;
-using FastTech.Api.Filters;
 using Microsoft.AspNetCore.Mvc.Filters;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
+using Newtonsoft.Json.Serialization;
 using Prometheus;
-using FastTech.Api.Robots.RabbitMQ;
-using FastTech.Api.Authorization;
+using System.Diagnostics;
+using System.Globalization;
+using System.Reflection;
+using static FastTech.Domain.Constants.AppConstants;
 
 var builder = WebApplication.CreateBuilder(args);
 var env = builder.Environment;
@@ -98,7 +97,7 @@ builder.Services.AddSwaggerGen(c =>
     var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
     c.IncludeXmlComments(xmlPath);
 
-    c.CustomSchemaIds(type => 
+    c.CustomSchemaIds(type =>
     {
         var namingStrategy = new SnakeCaseNamingStrategy();
         return namingStrategy.GetPropertyName(type.Name, false);

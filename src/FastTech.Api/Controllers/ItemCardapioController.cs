@@ -1,7 +1,7 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using FastTech.Application.DataTransferObjects;
+﻿using FastTech.Application.DataTransferObjects;
 using FastTech.Application.Interfaces;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using static FastTech.Domain.Constants.AppConstants;
 
 namespace FastTech.Api.Controllers

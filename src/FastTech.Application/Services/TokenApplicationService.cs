@@ -6,7 +6,7 @@ using FastTech.Domain.Interfaces.Security;
 namespace FastTech.Application.Services;
 
 public class TokenApplicationService(
-    IUserService userService, 
+    IUserService userService,
     ITokenService tokenService) : ITokenApplicationService
 {
     private readonly IUserService _userService = userService;

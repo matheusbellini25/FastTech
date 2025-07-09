@@ -1,5 +1,5 @@
-using Microsoft.EntityFrameworkCore;
 using FastTech.Infrastructure.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace FastTech.Tests.Shared.DataBase;
 

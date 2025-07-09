@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FastTech.Domain.Entities
+﻿namespace FastTech.Domain.Entities
 {
     public class Pedido : BaseEntity
     {

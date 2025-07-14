@@ -23,13 +23,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\FastTech.Api\FastTech.Api.csproj" />
-    <ProjectReference Include="..\..\src\FastTech.Domain\FastTech.Domain.csproj" />
-    <ProjectReference Include="..\..\src\FastTech.Infrastructure\FastTech.Infrastructure.csproj" />
-    <ProjectReference Include="..\..\src\FastTech.Application\FastTech.Application.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Using Include="Xunit" />
   </ItemGroup>
 

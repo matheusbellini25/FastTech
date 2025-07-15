@@ -513,11 +513,11 @@ C:\Users\MatheusBelliniCosta\Documents\FastTechCore\FastTechCore\src\FastTech.Ap
 C:\Users\MatheusBelliniCosta\Documents\FastTechCore\FastTechCore\src\FastTech.Api\obj\Debug\net8.0\FastTech.Api.pdb
 C:\Users\MatheusBelliniCosta\Documents\FastTechCore\FastTechCore\src\FastTech.Api\obj\Debug\net8.0\FastTech.Api.genruntimeconfig.cache
 C:\Users\MatheusBelliniCosta\Documents\FastTechCore\FastTechCore\src\FastTech.Api\obj\Debug\net8.0\ref\FastTech.Api.dll
+C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechCore\src\FastTech.Api\bin\Debug\net8.0\Migrations\scripts\20241031004359_Add_entity_StateDDD.sql
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechCore\src\FastTech.Api\bin\Debug\net8.0\appsettings.Development.json
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechCore\src\FastTech.Api\bin\Debug\net8.0\appsettings.Docker.json
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechCore\src\FastTech.Api\bin\Debug\net8.0\appsettings.json
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechCore\src\FastTech.Api\bin\Debug\net8.0\Postman\FIAP - Collections.postman_collection.json
-C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechCore\src\FastTech.Api\bin\Debug\net8.0\Migrations\scripts\20241031004359_Add_entity_StateDDD.sql
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechCore\src\FastTech.Api\bin\Debug\net8.0\FastTech.Api.staticwebassets.endpoints.json
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechCore\src\FastTech.Api\bin\Debug\net8.0\FastTech.Api.exe
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechCore\src\FastTech.Api\bin\Debug\net8.0\FastTech.Api.deps.json

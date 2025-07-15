@@ -523,15 +523,15 @@ C:\Users\MatheusBelliniCosta\Documents\FastTechCore\FastTechKitchen\FasTechKitch
 C:\Users\MatheusBelliniCosta\Documents\FastTechCore\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\FastTech.Application.pdb
 C:\Users\MatheusBelliniCosta\Documents\FastTechCore\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\FastTech.Domain.pdb
 C:\Users\MatheusBelliniCosta\Documents\FastTechCore\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\FastTech.Infrastructure.pdb
+C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\FastTech.Api.deps.json
+C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\FastTech.Api.runtimeconfig.json
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\Migrations\scripts\20241031004359_Add_entity_StateDDD.sql
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\appsettings.Docker.json
+C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\FastTech.Api.staticwebassets.endpoints.json
+C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\FastTech.Api.exe
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\appsettings.Development.json
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\appsettings.json
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\Postman\FIAP - Collections.postman_collection.json
-C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\FastTech.Api.deps.json
-C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\FastTech.Api.runtimeconfig.json
-C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\FastTech.Api.staticwebassets.endpoints.json
-C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\FastTech.Api.exe
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\FasTechKitchen.Api.staticwebassets.endpoints.json
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\FasTechKitchen.Api.exe
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\FasTechKitchen.Api.deps.json

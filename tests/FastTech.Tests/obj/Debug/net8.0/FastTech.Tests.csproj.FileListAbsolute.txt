@@ -498,19 +498,19 @@ C:\Users\MatheusBelliniCosta\Documents\FastTechCore\tests\FastTech.Tests\obj\Deb
 C:\Users\MatheusBelliniCosta\Documents\FastTechCore\tests\FastTech.Tests\obj\Debug\net8.0\FastTech.Tests.genruntimeconfig.cache
 C:\Users\MatheusBelliniCosta\Documents\FastTechCore\tests\FastTech.Tests\obj\Debug\net8.0\ref\FastTech.Tests.dll
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\tests\FastTech.Tests\bin\Debug\net8.0\CoverletSourceRootsMapping_FastTech.Tests
+C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\tests\FastTech.Tests\bin\Debug\net8.0\testhost.dll
+C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\tests\FastTech.Tests\bin\Debug\net8.0\xunit.abstractions.dll
+C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\tests\FastTech.Tests\bin\Debug\net8.0\FastTech.Api.deps.json
+C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\tests\FastTech.Tests\bin\Debug\net8.0\FastTech.Api.runtimeconfig.json
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\tests\FastTech.Tests\bin\Debug\net8.0\Migrations\scripts\20241031004359_Add_entity_StateDDD.sql
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\tests\FastTech.Tests\bin\Debug\net8.0\appsettings.Development.json
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\tests\FastTech.Tests\bin\Debug\net8.0\appsettings.Docker.json
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\tests\FastTech.Tests\bin\Debug\net8.0\appsettings.json
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\tests\FastTech.Tests\bin\Debug\net8.0\Postman\FIAP - Collections.postman_collection.json
-C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\tests\FastTech.Tests\bin\Debug\net8.0\testhost.exe
-C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\tests\FastTech.Tests\bin\Debug\net8.0\testhost.dll
-C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\tests\FastTech.Tests\bin\Debug\net8.0\xunit.abstractions.dll
-C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\tests\FastTech.Tests\bin\Debug\net8.0\xunit.runner.visualstudio.testadapter.dll
-C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\tests\FastTech.Tests\bin\Debug\net8.0\FastTech.Api.deps.json
-C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\tests\FastTech.Tests\bin\Debug\net8.0\FastTech.Api.runtimeconfig.json
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\tests\FastTech.Tests\bin\Debug\net8.0\FastTech.Api.staticwebassets.endpoints.json
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\tests\FastTech.Tests\bin\Debug\net8.0\FastTech.Api.exe
+C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\tests\FastTech.Tests\bin\Debug\net8.0\testhost.exe
+C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\tests\FastTech.Tests\bin\Debug\net8.0\xunit.runner.visualstudio.testadapter.dll
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\tests\FastTech.Tests\bin\Debug\net8.0\FastTech.Tests.deps.json
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\tests\FastTech.Tests\bin\Debug\net8.0\FastTech.Tests.runtimeconfig.json
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\tests\FastTech.Tests\bin\Debug\net8.0\FastTech.Tests.dll

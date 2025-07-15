@@ -37,6 +37,19 @@ services:
     networks:
       - mynw 
 
+  fasttechkitchen:
+    image: fastechkitchenapi
+    build:
+      context: .
+      dockerfile: FastTechKitchen/FasTechKitchenApi/Dockerfile
+    ports:
+      - "8081:8081"
+    depends_on:
+      - sqlserver
+      - rabbitmq
+    networks:
+      - mynw 
+ 
   prometheus:
     image: prom/prometheus
     ports:

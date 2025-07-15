@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{876CD956-7805-4A9D-8071-E9D2A95BDF20}|FastTechKitchen\\FasTechKitchenApi\\FasTechKitchen.Api.csproj|c:\\pessoais-julio\\fiap\\fasttech_1\\fasttech\\fasttechkitchen\\fastechkitchenapi\\fastechkitchen.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{876CD956-7805-4A9D-8071-E9D2A95BDF20}|FastTechKitchen\\FasTechKitchenApi\\FasTechKitchen.Api.csproj|solutionrelative:fasttechkitchen\\fastechkitchenapi\\fastechkitchen.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{876CD956-7805-4A9D-8071-E9D2A95BDF20}|FastTechKitchen\\FasTechKitchenApi\\FasTechKitchen.Api.csproj|c:\\pessoais-julio\\fiap\\fasttech_1\\fasttech\\fasttechkitchen\\fastechkitchenapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{876CD956-7805-4A9D-8071-E9D2A95BDF20}|FastTechKitchen\\FasTechKitchenApi\\FasTechKitchen.Api.csproj|solutionrelative:fasttechkitchen\\fastechkitchenapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1035FEA7-FAC1-4D12-8F8F-82318D064FED}|docker-compose.dcproj|c:\\pessoais-julio\\fiap\\fasttech_1\\fasttech\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{1035FEA7-FAC1-4D12-8F8F-82318D064FED}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{876CD956-7805-4A9D-8071-E9D2A95BDF20}|FastTechKitchen\\FasTechKitchenApi\\FasTechKitchen.Api.csproj|c:\\pessoais-julio\\fiap\\fasttech_1\\fasttech\\fasttechkitchen\\fastechkitchenapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{876CD956-7805-4A9D-8071-E9D2A95BDF20}|FastTechKitchen\\FasTechKitchenApi\\FasTechKitchen.Api.csproj|solutionrelative:fasttechkitchen\\fastechkitchenapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F03F123B-A4AE-4D76-962A-B1A07A904FC1}|FastTechCore\\src\\FastTech.Api\\FastTech.Api.csproj|c:\\pessoais-julio\\fiap\\fasttech_1\\fasttech\\fasttechcore\\src\\fasttech.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{F03F123B-A4AE-4D76-962A-B1A07A904FC1}|FastTechCore\\src\\FastTech.Api\\FastTech.Api.csproj|solutionrelative:fasttechcore\\src\\fasttech.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F03F123B-A4AE-4D76-962A-B1A07A904FC1}|FastTechCore\\src\\FastTech.Api\\FastTech.Api.csproj|c:\\pessoais-julio\\fiap\\fasttech_1\\fasttech\\fasttechcore\\src\\fasttech.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F03F123B-A4AE-4D76-962A-B1A07A904FC1}|FastTechCore\\src\\FastTech.Api\\FastTech.Api.csproj|solutionrelative:fasttechcore\\src\\fasttech.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +34,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FasTechKitchen.Api",
+              "DocumentMoniker": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\FastTechKitchen\\FasTechKitchenApi\\FasTechKitchen.Api.csproj",
+              "RelativeDocumentMoniker": "FastTechKitchen\\FasTechKitchenApi\\FasTechKitchen.Api.csproj",
+              "ToolTip": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\FastTechKitchen\\FasTechKitchenApi\\FasTechKitchen.Api.csproj",
+              "RelativeToolTip": "FastTechKitchen\\FasTechKitchenApi\\FasTechKitchen.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-15T18:41:30.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\FastTechKitchen\\FasTechKitchenApi\\Program.cs",
+              "RelativeDocumentMoniker": "FastTechKitchen\\FasTechKitchenApi\\Program.cs",
+              "ToolTip": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\FastTechKitchen\\FasTechKitchenApi\\Program.cs",
+              "RelativeToolTip": "FastTechKitchen\\FasTechKitchenApi\\Program.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAewIwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T17:49:02.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\FastTechCore\\src\\FastTech.Api\\Program.cs",
+              "RelativeDocumentMoniker": "FastTechCore\\src\\FastTech.Api\\Program.cs",
+              "ToolTip": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\FastTechCore\\src\\FastTech.Api\\Program.cs",
+              "RelativeToolTip": "FastTechCore\\src\\FastTech.Api\\Program.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T17:48:49.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\FastTechKitchen\\FasTechKitchenApi\\Dockerfile",
+              "RelativeDocumentMoniker": "FastTechKitchen\\FasTechKitchenApi\\Dockerfile",
+              "ToolTip": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\FastTechKitchen\\FasTechKitchenApi\\Dockerfile",
+              "RelativeToolTip": "FastTechKitchen\\FasTechKitchenApi\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-15T03:45:35.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\FastTechCore\\src\\FastTech.Api\\Dockerfile",
               "RelativeDocumentMoniker": "FastTechCore\\src\\FastTech.Api\\Dockerfile",
               "ToolTip": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\FastTechCore\\src\\FastTech.Api\\Dockerfile",
               "RelativeToolTip": "FastTechCore\\src\\FastTech.Api\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-07-15T03:20:15.034Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\docker-compose.yml",
               "RelativeDocumentMoniker": "docker-compose.yml",
               "ToolTip": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\docker-compose.yml",
               "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAB4AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
               "WhenOpened": "2025-07-15T03:02:26.675Z",
               "EditorCaption": ""

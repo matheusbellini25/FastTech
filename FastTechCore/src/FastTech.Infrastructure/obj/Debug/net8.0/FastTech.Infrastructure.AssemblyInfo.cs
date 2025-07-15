@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FastTech.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc66759ec5394095d4ebcc0eeeb9f20c50ed136a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ca4339d4209ac8974c7b0c8bcaf569f828689dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("FastTech.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FastTech.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

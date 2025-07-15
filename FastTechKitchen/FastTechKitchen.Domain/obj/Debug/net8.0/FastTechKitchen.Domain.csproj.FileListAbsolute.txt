@@ -36,3 +36,16 @@ C:\Users\MatheusBelliniCosta\Documents\FastTechCore\FastTechKitchen\FastTechKitc
 C:\Users\MatheusBelliniCosta\Documents\FastTechCore\FastTechKitchen\FastTechKitchen.Domain\obj\Debug\net8.0\refint\FastTechKitchen.Domain.dll
 C:\Users\MatheusBelliniCosta\Documents\FastTechCore\FastTechKitchen\FastTechKitchen.Domain\obj\Debug\net8.0\FastTechKitchen.Domain.pdb
 C:\Users\MatheusBelliniCosta\Documents\FastTechCore\FastTechKitchen\FastTechKitchen.Domain\obj\Debug\net8.0\ref\FastTechKitchen.Domain.dll
+C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FastTechKitchen.Domain\bin\Debug\net8.0\FastTechKitchen.Domain.deps.json
+C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FastTechKitchen.Domain\bin\Debug\net8.0\FastTechKitchen.Domain.dll
+C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FastTechKitchen.Domain\bin\Debug\net8.0\FastTechKitchen.Domain.pdb
+C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FastTechKitchen.Domain\obj\Debug\net8.0\FastTechKitchen.Domain.csproj.AssemblyReference.cache
+C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FastTechKitchen.Domain\obj\Debug\net8.0\FastTechKitchen.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FastTechKitchen.Domain\obj\Debug\net8.0\FastTechKitchen.Domain.AssemblyInfoInputs.cache
+C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FastTechKitchen.Domain\obj\Debug\net8.0\FastTechKitchen.Domain.AssemblyInfo.cs
+C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FastTechKitchen.Domain\obj\Debug\net8.0\FastTechKitchen.Domain.csproj.CoreCompileInputs.cache
+C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FastTechKitchen.Domain\obj\Debug\net8.0\FastTechKitchen.Domain.sourcelink.json
+C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FastTechKitchen.Domain\obj\Debug\net8.0\FastTechKitchen.Domain.dll
+C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FastTechKitchen.Domain\obj\Debug\net8.0\refint\FastTechKitchen.Domain.dll
+C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FastTechKitchen.Domain\obj\Debug\net8.0\FastTechKitchen.Domain.pdb
+C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FastTechKitchen.Domain\obj\Debug\net8.0\ref\FastTechKitchen.Domain.dll

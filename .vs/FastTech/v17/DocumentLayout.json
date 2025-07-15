@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1035FEA7-FAC1-4D12-8F8F-82318D064FED}|docker-compose.dcproj|c:\\pessoais-julio\\fiap\\fasttech_1\\fasttech\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1035FEA7-FAC1-4D12-8F8F-82318D064FED}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F03F123B-A4AE-4D76-962A-B1A07A904FC1}|FastTechCore\\src\\FastTech.Api\\FastTech.Api.csproj|c:\\pessoais-julio\\fiap\\fasttech_1\\fasttech\\fasttechcore\\src\\fasttech.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F03F123B-A4AE-4D76-962A-B1A07A904FC1}|FastTechCore\\src\\FastTech.Api\\FastTech.Api.csproj|solutionrelative:fasttechcore\\src\\fasttech.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\FastTechCore\\src\\FastTech.Api\\Dockerfile",
+              "RelativeDocumentMoniker": "FastTechCore\\src\\FastTech.Api\\Dockerfile",
+              "ToolTip": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\FastTechCore\\src\\FastTech.Api\\Dockerfile",
+              "RelativeToolTip": "FastTechCore\\src\\FastTech.Api\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-15T03:20:15.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAB4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-07-15T03:02:26.675Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

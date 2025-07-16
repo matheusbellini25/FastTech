@@ -33,7 +33,7 @@ jobs:
         run: dotnet build FastTech.sln --configuration Release --no-restore
 
       - name: Executar testes
-        run: dotnet test Tests/FastTech.Tests/FastTech.Tests.csproj --configuration Release --no-build --verbosity normal
+        run: dotnet test tests/FastTech.Tests/FastTech.Tests.csproj --configuration Release --no-build --verbosity normal
 
       - name: Build da imagem Docker
         run: docker build -t ${{ secrets.DOCKER_USERNAME }}/fasttech-api:latest ./FastTechCore/FastTech.Api

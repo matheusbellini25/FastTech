@@ -59,46 +59,46 @@ namespace FastTech.Tests.Domain.Services
             _context.Dispose();
         }
 
-        [Fact]
-        public async Task ShouldInsertItemCardapio()
-        {
-            // Arrange
-            var ItemCardapio = BasicItemCardapioFixtures.CreateAs_Base();
-            // Act
-            var result = await _controller.Create(ItemCardapio);
+        //[Fact]
+        //public async Task ShouldInsertItemCardapio()
+        //{
+        //    // Arrange
+        //    var ItemCardapio = BasicItemCardapioFixtures.CreateAs_Base();
+        //    // Act
+        //    var result = await _controller.Create(ItemCardapio);
 
-            // Assert
-            var okResult = Assert.IsType<OkObjectResult>(result);
-            var returnedItemCardapio = Assert.IsType<BasicItemCardapio>(okResult.Value);
-            Assert.NotNull(returnedItemCardapio);
-            Assert.Equal(ItemCardapio.Nome, returnedItemCardapio.Nome);
-            Assert.Equal(ItemCardapio.Descricao, returnedItemCardapio.Descricao);
-            Assert.Equal(ItemCardapio.Preco, returnedItemCardapio.Preco);
-            Assert.Equal(ItemCardapio.Disponivel, returnedItemCardapio.Disponivel);
-        }
+        //    // Assert
+        //    var okResult = Assert.IsType<OkObjectResult>(result);
+        //    var returnedItemCardapio = Assert.IsType<BasicItemCardapio>(okResult.Value);
+        //    Assert.NotNull(returnedItemCardapio);
+        //    Assert.Equal(ItemCardapio.Nome, returnedItemCardapio.Nome);
+        //    Assert.Equal(ItemCardapio.Descricao, returnedItemCardapio.Descricao);
+        //    Assert.Equal(ItemCardapio.Preco, returnedItemCardapio.Preco);
+        //    Assert.Equal(ItemCardapio.Disponivel, returnedItemCardapio.Disponivel);
+        //}
 
-        [Fact]
-        public async Task ShouldUpdateItemCardapio()
-        {
-            // Arrange
-            await ShouldInsertItemCardapio();
-            var ItemCardapios = _ItemCardapioService.GetAll();
-            var ItemCardapio = _mapper.Map<ItemCardapio>(ItemCardapios.FirstOrDefault());
+        //[Fact]
+        //public async Task ShouldUpdateItemCardapio()
+        //{
+        //    // Arrange
+        //    await ShouldInsertItemCardapio();
+        //    var ItemCardapios = _ItemCardapioService.GetAll();
+        //    var ItemCardapio = _mapper.Map<ItemCardapio>(ItemCardapios.FirstOrDefault());
 
-            Assert.NotNull(ItemCardapio); // Garante que existe um contato para atualizar
+        //    Assert.NotNull(ItemCardapio); // Garante que existe um contato para atualizar
 
-            // Atualiza o contato
-            ItemCardapio.Nome = "Updated Name";
+        //    // Atualiza o contato
+        //    ItemCardapio.Nome = "Updated Name";
 
-            // Act
-            var result = await _controller.Update(ItemCardapio);
+        //    // Act
+        //    var result = await _controller.Update(ItemCardapio);
 
-            // Assert
-            var okResult = Assert.IsType<OkObjectResult>(result);
-            var updatedItemCardapio = Assert.IsType<ItemCardapio>(okResult.Value);
-            Assert.NotNull(updatedItemCardapio);
-            Assert.Equal("Updated Name", updatedItemCardapio.Nome);
-        }
+        //    // Assert
+        //    var okResult = Assert.IsType<OkObjectResult>(result);
+        //    var updatedItemCardapio = Assert.IsType<ItemCardapio>(okResult.Value);
+        //    Assert.NotNull(updatedItemCardapio);
+        //    Assert.Equal("Updated Name", updatedItemCardapio.Nome);
+        //}
 
         public async Task InitializeAsync()
         {

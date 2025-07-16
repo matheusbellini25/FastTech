@@ -1,7 +1,7 @@
 using AutoMapper;
 using FasTechKitchen.Api.Authorization;
 using FasTechKitchen.Api.Filters;
-using FastTech.Api.Logging;
+using FasTechKitchen.Api.Logging;
 using FastTechKitchen.Application.DataTransferObjects;
 using FastTechKitchen.Application.Interfaces;
 using FastTechKitchen.Application.Services;
@@ -30,6 +30,8 @@ using System.Diagnostics;
 using System.Globalization;
 using System.Reflection;
 using static FastTechKitchen.Domain.Constants.AppConstants;
+
+
 var builder = WebApplication.CreateBuilder(args);
 var env = builder.Environment;
 

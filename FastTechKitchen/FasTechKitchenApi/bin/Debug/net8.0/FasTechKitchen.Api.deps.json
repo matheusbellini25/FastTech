@@ -9,7 +9,6 @@
       "FasTechKitchen.Api/1.0.0": {
         "dependencies": {
           "AspNetCore.HealthChecks.SqlServer": "9.0.0",
-          "FastTech.Api": "1.0.0",
           "FastTechKitchen.Application": "1.0.0",
           "FastTechKitchen.Domain": "1.0.0",
           "FastTechKitchen.Infraestructure": "1.0.0",
@@ -1137,78 +1136,6 @@
           }
         }
       },
-      "FastTech.Api/1.0.0": {
-        "dependencies": {
-          "AspNetCore.HealthChecks.SqlServer": "9.0.0",
-          "FastTech.Application": "1.0.0",
-          "FastTech.Domain": "1.0.0",
-          "FastTech.Infrastructure": "1.0.0",
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.10",
-          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "8.0.10",
-          "Microsoft.EntityFrameworkCore": "8.0.0",
-          "Microsoft.EntityFrameworkCore.Design": "8.0.0",
-          "Microsoft.EntityFrameworkCore.Proxies": "8.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0",
-          "Microsoft.EntityFrameworkCore.Tools": "8.0.0",
-          "Microsoft.Extensions.Caching.Memory": "8.0.1",
-          "Microsoft.Extensions.Configuration.FileExtensions": "8.0.0",
-          "Microsoft.Extensions.Configuration.Json": "8.0.0",
-          "Microsoft.Extensions.Logging": "8.0.0",
-          "RabbitMQ.Client": "7.1.2",
-          "Swashbuckle.AspNetCore": "6.9.0",
-          "Z.EntityFramework.Extensions.EFCore": "8.101.0",
-          "prometheus-net": "8.2.1",
-          "prometheus-net.AspNetCore": "8.2.1",
-          "prometheus-net.AspNetCore.HealthChecks": "8.2.1"
-        },
-        "runtime": {
-          "FastTech.Api.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "FastTech.Application/1.0.0": {
-        "dependencies": {
-          "AutoMapper": "15.0.0",
-          "FastTech.Domain": "1.0.0",
-          "FastTech.Infrastructure": "1.0.0",
-          "Swashbuckle.AspNetCore": "6.9.0"
-        },
-        "runtime": {
-          "FastTech.Application.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "FastTech.Domain/1.0.0": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.10",
-          "Microsoft.Extensions.Caching.Memory": "8.0.1"
-        },
-        "runtime": {
-          "FastTech.Domain.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "FastTech.Infrastructure/1.0.0": {
-        "dependencies": {
-          "FastTech.Domain": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "8.0.0",
-          "Microsoft.EntityFrameworkCore.Design": "8.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0",
-          "Microsoft.EntityFrameworkCore.Tools": "8.0.0"
-        },
-        "runtime": {
-          "FastTech.Infrastructure.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "FastTechKitchen.Application/1.0.0": {
         "dependencies": {
           "AutoMapper": "15.0.0",
@@ -1217,7 +1144,7 @@
         },
         "runtime": {
           "FastTechKitchen.Application.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -1229,7 +1156,7 @@
         },
         "runtime": {
           "FastTechKitchen.Domain.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -1244,7 +1171,7 @@
         },
         "runtime": {
           "FastTechKitchen.Infraestructure.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -1956,26 +1883,6 @@
       "sha512": "sha512-ZuH5w6NFi8j2s7Ndh2vR3ImjPBW1DC5rREFtx3ifbf/XRy8WZqEKmXDfZlAOcH+1pFCbe0oyLyVID13yOFegqA==",
       "path": "z.entityframework.extensions.efcore/8.101.0",
       "hashPath": "z.entityframework.extensions.efcore.8.101.0.nupkg.sha512"
-    },
-    "FastTech.Api/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "FastTech.Application/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "FastTech.Domain/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "FastTech.Infrastructure/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "FastTechKitchen.Application/1.0.0": {
       "type": "project",

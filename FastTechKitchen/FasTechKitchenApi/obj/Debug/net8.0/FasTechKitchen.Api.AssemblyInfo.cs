@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FasTechKitchen.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b307c59a61d4f3303096581a62507c4cbc10ab86")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f334051722b2068d5ea312f911dd07e26ab544a")]
 [assembly: System.Reflection.AssemblyProductAttribute("FasTechKitchen.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FasTechKitchen.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

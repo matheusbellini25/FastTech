@@ -1,11 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "d9W6HXPLzTQvTkpL5Wwrr/MbD8xFbYyl5y1VC3nX9Mk=",
-  "Source": "FasTechKitchen.Api",
-  "BasePath": "_content/FasTechKitchen.Api",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
-}
+{"Version":1,"Hash":"0LjHJjRgAEyDaF7aYbWqwxHkcefWIBq9h6FXWeiYHZ0=","Source":"FasTechKitchen.Api","BasePath":"_content/FasTechKitchen.Api","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

@@ -52,3 +52,4 @@ dotnet ef migrations add "Adicionar o nome da Migration Aqui" --project MPCalcHu
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
 
+teste CI/CD

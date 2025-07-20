@@ -523,12 +523,7 @@ C:\Users\MatheusBelliniCosta\Documents\FastTechCore\FastTechKitchen\FasTechKitch
 C:\Users\MatheusBelliniCosta\Documents\FastTechCore\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\FastTech.Application.pdb
 C:\Users\MatheusBelliniCosta\Documents\FastTechCore\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\FastTech.Domain.pdb
 C:\Users\MatheusBelliniCosta\Documents\FastTechCore\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\FastTech.Infrastructure.pdb
-C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\FastTech.Api.deps.json
-C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\FastTech.Api.runtimeconfig.json
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\Migrations\scripts\20241031004359_Add_entity_StateDDD.sql
-C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\appsettings.Docker.json
-C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\FastTech.Api.staticwebassets.endpoints.json
-C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\FastTech.Api.exe
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\appsettings.Development.json
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\appsettings.json
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\Postman\FIAP - Collections.postman_collection.json
@@ -671,21 +666,12 @@ C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
-C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\FastTech.Api.dll
-C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\FastTech.Application.dll
-C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\FastTech.Domain.dll
-C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\FastTech.Infrastructure.dll
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\FastTechKitchen.Application.dll
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\FastTechKitchen.Domain.dll
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\FastTechKitchen.Infraestructure.dll
-C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\FastTech.Api.pdb
-C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\FastTech.Api.xml
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\FastTechKitchen.Domain.pdb
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\FastTechKitchen.Infraestructure.pdb
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\FastTechKitchen.Application.pdb
-C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\FastTech.Application.pdb
-C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\FastTech.Domain.pdb
-C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\bin\Debug\net8.0\FastTech.Infrastructure.pdb
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\obj\Debug\net8.0\FasTechKitchen.Api.csproj.AssemblyReference.cache
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\obj\Debug\net8.0\rpswa.dswa.cache.json
 C:\Pessoais-Julio\FIAP\FastTech_1\FastTech\FastTechKitchen\FasTechKitchenApi\obj\Debug\net8.0\FasTechKitchen.Api.GeneratedMSBuildEditorConfig.editorconfig

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FastTech.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95249b621b41c3bb57fa5fa9d38fd6a4ccd590cc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+567372ef8158bd5c670e1060e19fc1e87d0dbb1c")]
 [assembly: System.Reflection.AssemblyProductAttribute("FastTech.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FastTech.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,5 +1,6 @@
 using FastTechKitchen.Domain.Entities.Interfaces;
 using FastTechKitchen.Domain.Interfaces.Infrastructure;
+using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
 namespace FastTechKitchen.Infraestructure.Data.Repositories;
@@ -10,11 +11,24 @@ public abstract class BaseRepository<T>(ApplicationDBContext context) : BaseExpr
 
     public virtual async Task<T> Add(T entity)
     {
-        await Context.Set<T>().AddAsync(entity);
-        await Context.SaveChangesAsync();
+        try
+        {
+            Context.Set<T>().Add(entity);
+            await Context.SaveChangesAsync();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Erro no Add: " + ex.Message);
+            throw;
+        }
 
         return entity;
     }
+    public void DetachAsync(T entity)
+    {
+        Context.Entry(entity).State = EntityState.Detached;
+    }
+
 
     public virtual async Task<T> Update(T entity)
     {

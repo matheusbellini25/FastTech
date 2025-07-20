@@ -2,16 +2,16 @@
 {
     public class Pedido : BaseEntity
     {
-        public Guid ItemCardapioId { get; set; }
         public int FormaDeEntrega { get; set; }
         public bool Ativo { get; set; }
 
+        // Relação 1:N com PedidoItemCardapio
+        public List<PedidoItemCardapio> Itens { get; set; } = new();
 
         public Pedido() : base() { }
 
-        public Pedido(Guid itemCardapioId, int formaDeEntrega, bool ativo, Guid userId) : base()
+        public Pedido(int formaDeEntrega, bool ativo, Guid userId) : base()
         {
-            ItemCardapioId = itemCardapioId;
             FormaDeEntrega = formaDeEntrega;
             Ativo = ativo;
 

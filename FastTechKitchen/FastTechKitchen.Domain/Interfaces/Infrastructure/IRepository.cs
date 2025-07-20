@@ -10,4 +10,7 @@ public interface IRepository<T> : IDisposable where T : class, IBaseEntity
     Task<T> Update(T entity);
     Task Delete(Guid id);
     IQueryable<T> FindBy(Expression<Func<T, bool>> expression);
+
+    void DetachAsync(T entity);
+
 }

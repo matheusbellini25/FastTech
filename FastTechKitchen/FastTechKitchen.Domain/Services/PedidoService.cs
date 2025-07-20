@@ -21,13 +21,21 @@ public class PedidoService(IPedidoRepository PedidoRepository, UserData userData
 
     public override async Task<Pedido> Add(Pedido entity)
     {
-        var Pedido = await _PedidoRepository.GetById(entity.Id);
+        var existing = await _PedidoRepository.GetById(entity.Id);
 
-        if (Pedido != null)
-            throw new ValidationException("O Pedido já existe.");
+        if (existing != null)
+        {
+            // Atualiza os campos necessários
+            _repository.DetachAsync(existing); // Desanexa do DbContext
 
-        return await base.Add(entity);
+            entity.PrepareToUpdate(_userData.Id); // Se você usa campos como UpdatedAt, UpdatedBy
+            return await _repository.Update(entity); // OU use _PedidoRepository.Update
+        }
+
+        entity.PrepareToInsert(_userData.Id);
+        return await _repository.Add(entity);
     }
+
 
     public override async Task<Pedido> Update(Pedido entity)
     {

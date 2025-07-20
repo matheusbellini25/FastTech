@@ -52,5 +52,10 @@ namespace FastTechKitchen.Domain.Services
         {
             return _repository.FindBy(expression);
         }
+
+        public void DetachAsync(T entity)
+        {
+            _repository.DetachAsync(entity);
+        }
     }
 }

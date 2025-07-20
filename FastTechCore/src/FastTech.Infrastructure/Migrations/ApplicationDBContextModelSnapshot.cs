@@ -88,8 +88,49 @@ namespace FastTech.Infrastructure.Migrations
                     b.Property<int>("FormaDeEntrega")
                         .HasColumnType("int");
 
+                    b.Property<bool>("Removed")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false);
+
+                    b.Property<DateTime?>("RemovedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<Guid?>("RemovedBy")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<Guid?>("UpdatedBy")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Pedido", (string)null);
+                });
+
+            modelBuilder.Entity("FastTech.Domain.Entities.PedidoItemCardapio", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<Guid>("CreatedBy")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<Guid>("ItemCardapioId")
-                        .HasMaxLength(50)
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid?>("ItemCardapioId1")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("PedidoId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid?>("PedidoId1")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<bool>("Removed")
@@ -111,7 +152,16 @@ namespace FastTech.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Pedido", (string)null);
+                    b.HasIndex("ItemCardapioId");
+
+                    b.HasIndex("ItemCardapioId1");
+
+                    b.HasIndex("PedidoId1");
+
+                    b.HasIndex("PedidoId", "ItemCardapioId")
+                        .IsUnique();
+
+                    b.ToTable("PedidoItemCardapio", (string)null);
                 });
 
             modelBuilder.Entity("FastTech.Domain.Entities.User", b =>
@@ -171,6 +221,39 @@ namespace FastTech.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("User", (string)null);
+                });
+
+            modelBuilder.Entity("FastTech.Domain.Entities.PedidoItemCardapio", b =>
+                {
+                    b.HasOne("FastTech.Domain.Entities.ItemCardapio", null)
+                        .WithMany()
+                        .HasForeignKey("ItemCardapioId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("FastTech.Domain.Entities.ItemCardapio", null)
+                        .WithMany("Itens")
+                        .HasForeignKey("ItemCardapioId1");
+
+                    b.HasOne("FastTech.Domain.Entities.Pedido", null)
+                        .WithMany()
+                        .HasForeignKey("PedidoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("FastTech.Domain.Entities.Pedido", null)
+                        .WithMany("Itens")
+                        .HasForeignKey("PedidoId1");
+                });
+
+            modelBuilder.Entity("FastTech.Domain.Entities.ItemCardapio", b =>
+                {
+                    b.Navigation("Itens");
+                });
+
+            modelBuilder.Entity("FastTech.Domain.Entities.Pedido", b =>
+                {
+                    b.Navigation("Itens");
                 });
 #pragma warning restore 612, 618
         }

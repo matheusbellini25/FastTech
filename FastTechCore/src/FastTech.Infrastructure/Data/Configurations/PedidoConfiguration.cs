@@ -12,9 +12,7 @@ public class PedidoConfiguration : BaseEntityConfiguration<Pedido>
 
         builder.ToTable("Pedido");
 
-        builder.Property(u => u.ItemCardapioId).IsRequired().HasMaxLength(50);
         builder.Property(u => u.FormaDeEntrega).IsRequired();
-        builder.Property(u => u.FormaDeEntrega).IsRequired();
-
+        builder.Property(u => u.Ativo).IsRequired();
     }
 }

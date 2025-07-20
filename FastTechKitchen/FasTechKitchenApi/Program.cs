@@ -169,6 +169,7 @@ builder.Services.AddMemoryCache();
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IPedidoRepository, PedidoRepository>();
+builder.Services.AddScoped<IPedidoItemCardapioRepository, PedidoItemCardapioRepository>();
 
 
 #endregion
@@ -178,6 +179,7 @@ builder.Services.AddScoped<IPedidoRepository, PedidoRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddScoped<IPedidoService, PedidoService>();
+builder.Services.AddScoped<IPedidoItemCardapioService, PedidoItemCardapioService>();
 
 
 #endregion
@@ -187,6 +189,8 @@ builder.Services.AddScoped<IPedidoService, PedidoService>();
 builder.Services.AddScoped<IUserApplicationService, UserApplicationService>();
 builder.Services.AddScoped<ITokenApplicationService, TokenApplicationService>();
 builder.Services.AddScoped<IPedidoApplicationService, PedidoApplicationService>();
+builder.Services.AddScoped<IPedidoItemCardapioApplicationService, PedidoItemCardapioApplicationService>();
+
 #endregion
 
 #region Authorization

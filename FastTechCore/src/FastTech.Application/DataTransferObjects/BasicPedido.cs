@@ -5,24 +5,25 @@ namespace FastTech.Application.DataTransferObjects
 {
     public class BasicPedido
     {
-        [JsonPropertyName("ItemCardapioId")]
-        [Required(ErrorMessage = "O campo ItemCardapioId é obrigatório.")]
-        public Guid ItemCardapioId { get; set; }
-
-        [JsonPropertyName("FormaDeEntrega")]
         [Required(ErrorMessage = "O campo FormaDeEntrega é obrigatório.")]
+        [JsonPropertyName("FormaDeEntrega")]
         public int FormaDeEntrega { get; set; }
 
         [JsonPropertyName("Ativo")]
         public bool Ativo { get; set; } = true;
 
-        public BasicPedido() : base() { }
+        [Required(ErrorMessage = "Deve conter pelo menos um item de cardápio.")]
+        [MinLength(1, ErrorMessage = "Deve conter pelo menos um item de cardápio.")]
+        [JsonPropertyName("Itens")]
+        public List<BasicPedidoItemCardapio> Itens { get; set; } = new();
 
-        public BasicPedido(Guid itemCardapioId, int formaDeEntrega, bool ativo)
+        public BasicPedido() { }
+
+        public BasicPedido(int formaDeEntrega, bool ativo, List<BasicPedidoItemCardapio> itens)
         {
-            ItemCardapioId = itemCardapioId;
             FormaDeEntrega = formaDeEntrega;
             Ativo = ativo;
+            Itens = itens;
         }
     }
 }

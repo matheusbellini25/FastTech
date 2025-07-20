@@ -10,20 +10,42 @@ using MSG = FastTechKitchen.Application.DataTransferObjects.MessageBrokers;
 
 namespace FastTechKitchen.Application.Services;
 
-public class PedidoApplicationService(IPedidoService PedidoService, IMapper mapper) : IPedidoApplicationService
+public class PedidoApplicationService : IPedidoApplicationService
 {
-    private readonly IPedidoService _PedidoService = PedidoService;
-    private readonly IMapper _mapper = mapper;
+    private readonly IPedidoService _PedidoService;
+    private readonly IPedidoItemCardapioApplicationService _pedidoItemCardapioAppService;
+    private readonly IMapper _mapper;
+
+    public PedidoApplicationService(
+        IPedidoService pedidoService,
+        IPedidoItemCardapioApplicationService pedidoItemCardapioAppService,
+        IMapper mapper)
+    {
+        _PedidoService = pedidoService;
+        _pedidoItemCardapioAppService = pedidoItemCardapioAppService;
+        _mapper = mapper;
+    }
 
     public async Task<Pedido> Add(BasicPedido model)
     {
-        var Pedido = _mapper.Map<EN.Pedido>(model);
+        // 1. Mapeia apenas os campos do Pedido
+        var pedidoEntity = _mapper.Map<EN.Pedido>(model);
 
-        Pedido = await _PedidoService.Add(Pedido);
+        // 2. Salva; aqui o EF gera o Id
+        pedidoEntity = await _PedidoService.Add(pedidoEntity);
 
-        return _mapper.Map<Pedido>(Pedido);
+        // 3. Agora cria cada item com Id novo e o Id do pedido recém‑gerado
+        foreach (var item in model.Itens)
+        {
+            item.PedidoId = pedidoEntity.Id;
+            await _pedidoItemCardapioAppService.Add(item);
+        }
+
+        return _mapper.Map<Pedido>(pedidoEntity);
     }
 
+
+    // Os outros métodos permanecem iguais
     public async Task<Pedido> Update(Pedido model)
     {
         var Pedido = await _PedidoService.GetById(model.Id, include: false, tracking: true);
@@ -31,18 +53,14 @@ public class PedidoApplicationService(IPedidoService PedidoService, IMapper mapp
             throw new Exception("O Item do Cardapio não existe.");
 
         _mapper.Map(model, Pedido);
-
         Pedido = await _PedidoService.Update(Pedido);
-
         return _mapper.Map<Pedido>(Pedido);
     }
 
     public async Task<Pedido> Add(MSG.BasicPedido model)
     {
         var Pedido = _mapper.Map<EN.Pedido>(model);
-
         Pedido = await _PedidoService.Add(Pedido);
-
         return _mapper.Map<Pedido>(Pedido);
     }
 
@@ -52,7 +70,6 @@ public class PedidoApplicationService(IPedidoService PedidoService, IMapper mapp
         return _mapper.Map<IEnumerable<Pedido>>(pedidos);
     }
 
-
     public async Task<Pedido> Update(MSG.Pedido model)
     {
         var Pedido = await _PedidoService.GetById(model.Id, include: false, tracking: true);
@@ -60,9 +77,7 @@ public class PedidoApplicationService(IPedidoService PedidoService, IMapper mapp
             throw new Exception("O Item do Cardapio não existe.");
 
         _mapper.Map(model, Pedido);
-
         Pedido = await _PedidoService.Update(Pedido);
-
         return _mapper.Map<Pedido>(Pedido);
     }
 
@@ -80,7 +95,6 @@ public class PedidoApplicationService(IPedidoService PedidoService, IMapper mapp
                 var PedidoInsert = JsonSerializer.Deserialize<MSG.BasicPedido>(message);
                 await Add(PedidoInsert);
                 break;
-
             case AppConstants.Routes.RabbitMQ.PedidoUpdate:
                 var PedidoUpdate = JsonSerializer.Deserialize<MSG.Pedido>(message);
                 await Update(PedidoUpdate);
@@ -96,7 +110,6 @@ public class PedidoApplicationService(IPedidoService PedidoService, IMapper mapp
                 var PedidoInsert = JsonSerializer.Deserialize<MSG.BasicPedido>(message);
                 await Add(PedidoInsert);
                 break;
-
             case AppConstants.Routes.RabbitMQ.PedidoUpdate:
                 var PedidoUpdate = JsonSerializer.Deserialize<MSG.Pedido>(message);
                 await Update(PedidoUpdate);
@@ -107,7 +120,6 @@ public class PedidoApplicationService(IPedidoService PedidoService, IMapper mapp
     public void Dispose()
     {
         _PedidoService.Dispose();
-
         GC.SuppressFinalize(this);
     }
 }

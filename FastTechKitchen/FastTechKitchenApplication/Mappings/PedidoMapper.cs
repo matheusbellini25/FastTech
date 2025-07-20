@@ -23,6 +23,7 @@ namespace FastTechKitchen.Application.Mappings
             .ForMember(dest => dest.Removed, opt => opt.Ignore());
 
             CreateMap<DTO.BasicPedido, Pedido>()
+                .ForMember(dest => dest.Itens, opt => opt.Ignore())
                 .ConstructUsing(src => new Pedido());
 
             CreateMap<Pedido, MSG.Pedido>()

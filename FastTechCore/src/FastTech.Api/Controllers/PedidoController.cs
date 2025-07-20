@@ -30,17 +30,24 @@ namespace FastTech.Api.Controllers
         {
             try
             {
-                // Publicar os pedidos na fila
-                string jsonMessage = JsonSerializer.Serialize(listModel);
+                // Aqui você pode opcionalmente validar os pedidos antes de enviar para a fila
+                foreach (var pedido in listModel)
+                {
+                    if (pedido.Itens == null || !pedido.Itens.Any())
+                        return BadRequest(new { error = "Cada pedido deve conter ao menos um item de cardápio." });
+                }
 
+                // Serializa o modelo completo (com itens) e envia para a fila
+                string jsonMessage = JsonSerializer.Serialize(listModel);
                 await _pedidoProducerService.PublishMessageAsync(jsonMessage);
 
-                return Ok(new { message = "Pedidos enviados para a fila com sucesso." });
+                return Ok(new { message = "Pedido enviado para a fila com sucesso." });
             }
             catch (Exception ex)
             {
                 return BadRequest(new { error = ex.Message });
             }
         }
+
     }
 }

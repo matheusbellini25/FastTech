@@ -1,9 +1,16 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\",
+  "WorkspaceRootPath": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\",
   "Documents": [
     {
-<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{1B1A2489-C9D3-41EC-BC9C-B3E0650988E6}|FastTechKitchen\\FastTechKitchenApplication\\FastTechKitchen.Application.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\fasttechkitchen\\fasttechkitchenapplication\\services\\pedidoapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B1A2489-C9D3-41EC-BC9C-B3E0650988E6}|FastTechKitchen\\FastTechKitchenApplication\\FastTechKitchen.Application.csproj|solutionrelative:fasttechkitchen\\fasttechkitchenapplication\\services\\pedidoapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B1A2489-C9D3-41EC-BC9C-B3E0650988E6}|FastTechKitchen\\FastTechKitchenApplication\\FastTechKitchen.Application.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\fasttechkitchen\\fasttechkitchenapplication\\services\\pedidoitemcardapioapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B1A2489-C9D3-41EC-BC9C-B3E0650988E6}|FastTechKitchen\\FastTechKitchenApplication\\FastTechKitchen.Application.csproj|solutionrelative:fasttechkitchen\\fasttechkitchenapplication\\services\\pedidoitemcardapioapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{653B892D-020D-490C-9BA3-2CCF420FDBDF}|FastTechKitchen\\FastTechKitchen.Domain\\FastTechKitchen.Domain.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\fasttechkitchen\\fasttechkitchen.domain\\services\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{653B892D-020D-490C-9BA3-2CCF420FDBDF}|FastTechKitchen\\FastTechKitchen.Domain\\FastTechKitchen.Domain.csproj|solutionrelative:fasttechkitchen\\fasttechkitchen.domain\\services\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -14,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{876CD956-7805-4A9D-8071-E9D2A95BDF20}|FastTechKitchen\\FasTechKitchenApi\\FasTechKitchen.Api.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\fasttechkitchen\\fastechkitchenapi\\robots\\rabbitmq\\pedidoconsumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{876CD956-7805-4A9D-8071-E9D2A95BDF20}|FastTechKitchen\\FasTechKitchenApi\\FasTechKitchen.Api.csproj|solutionrelative:fasttechkitchen\\fastechkitchenapi\\robots\\rabbitmq\\pedidoconsumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B1A2489-C9D3-41EC-BC9C-B3E0650988E6}|FastTechKitchen\\FastTechKitchenApplication\\FastTechKitchen.Application.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\fasttechkitchen\\fasttechkitchenapplication\\services\\pedidoapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B1A2489-C9D3-41EC-BC9C-B3E0650988E6}|FastTechKitchen\\FastTechKitchenApplication\\FastTechKitchen.Application.csproj|solutionrelative:fasttechkitchen\\fasttechkitchenapplication\\services\\pedidoapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{653B892D-020D-490C-9BA3-2CCF420FDBDF}|FastTechKitchen\\FastTechKitchen.Domain\\FastTechKitchen.Domain.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\fasttechkitchen\\fasttechkitchen.domain\\services\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -90,10 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E33CE228-C0AE-4280-A0A2-A5323C695092}|FastTechCore\\src\\FastTech.Application\\FastTech.Application.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\fasttechcore\\src\\fasttech.application\\datatransferobjects\\messagebrokers\\basicpedidoitemcardapio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E33CE228-C0AE-4280-A0A2-A5323C695092}|FastTechCore\\src\\FastTech.Application\\FastTech.Application.csproj|solutionrelative:fasttechcore\\src\\fasttech.application\\datatransferobjects\\messagebrokers\\basicpedidoitemcardapio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B1A2489-C9D3-41EC-BC9C-B3E0650988E6}|FastTechKitchen\\FastTechKitchenApplication\\FastTechKitchen.Application.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\fasttechkitchen\\fasttechkitchenapplication\\services\\pedidoitemcardapioapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B1A2489-C9D3-41EC-BC9C-B3E0650988E6}|FastTechKitchen\\FastTechKitchenApplication\\FastTechKitchen.Application.csproj|solutionrelative:fasttechkitchen\\fasttechkitchenapplication\\services\\pedidoitemcardapioapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F03F123B-A4AE-4D76-962A-B1A07A904FC1}|FastTechCore\\src\\FastTech.Api\\FastTech.Api.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\fasttechcore\\src\\fasttech.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -270,21 +269,12 @@
     {
       "AbsoluteMoniker": "D:0:0:{F03F123B-A4AE-4D76-962A-B1A07A904FC1}|FastTechCore\\src\\FastTech.Api\\FastTech.Api.csproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\fasttechcore\\src\\fasttech.api\\fasttech.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{F03F123B-A4AE-4D76-962A-B1A07A904FC1}|FastTechCore\\src\\FastTech.Api\\FastTech.Api.csproj|solutionrelative:fasttechcore\\src\\fasttech.api\\fasttech.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-=======
-      "AbsoluteMoniker": "D:0:0:{F03F123B-A4AE-4D76-962A-B1A07A904FC1}|FastTechCore\\src\\FastTech.Api\\FastTech.Api.csproj|c:\\pessoais-julio\\fiap\\fasttech_1\\fasttech\\fasttechcore\\src\\fasttech.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{F03F123B-A4AE-4D76-962A-B1A07A904FC1}|FastTechCore\\src\\FastTech.Api\\FastTech.Api.csproj|solutionrelative:fasttechcore\\src\\fasttech.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
->>>>>>> 1693d3103fd1115aafba91b5a672d2793639621a
     },
     {
-      "AbsoluteMoniker": "D:0:0:{876CD956-7805-4A9D-8071-E9D2A95BDF20}|FastTechKitchen\\FasTechKitchenApi\\FasTechKitchen.Api.csproj|c:\\pessoais-julio\\fiap\\fasttech_1\\fasttech\\fasttechkitchen\\fastechkitchenapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{876CD956-7805-4A9D-8071-E9D2A95BDF20}|FastTechKitchen\\FasTechKitchenApi\\FasTechKitchen.Api.csproj|solutionrelative:fasttechkitchen\\fastechkitchenapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1035FEA7-FAC1-4D12-8F8F-82318D064FED}|docker-compose.dcproj|c:\\pessoais-julio\\fiap\\fasttech_1\\fasttech\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{1035FEA7-FAC1-4D12-8F8F-82318D064FED}|docker-compose.dcproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{1035FEA7-FAC1-4D12-8F8F-82318D064FED}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{1035FEA7-FAC1-4D12-8F8F-82318D064FED}|docker-compose.dcproj|c:\\users\\matheusbellinicosta\\documents\\fasttech\\docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{1035FEA7-FAC1-4D12-8F8F-82318D064FED}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -394,18 +384,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MatheusBelliniCosta\\Documents\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Authorization\\RolesAuthorizationHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{876CD956-7805-4A9D-8071-E9D2A95BDF20}|FastTechKitchen\\FasTechKitchenApi\\FasTechKitchen.Api.csproj|c:\\pessoais-julio\\fiap\\fasttech_1\\fasttech\\fasttechkitchen\\fastechkitchenapi\\fastechkitchen.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{876CD956-7805-4A9D-8071-E9D2A95BDF20}|FastTechKitchen\\FasTechKitchenApi\\FasTechKitchen.Api.csproj|solutionrelative:fasttechkitchen\\fastechkitchenapi\\fastechkitchen.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{876CD956-7805-4A9D-8071-E9D2A95BDF20}|FastTechKitchen\\FasTechKitchenApi\\FasTechKitchen.Api.csproj|c:\\pessoais-julio\\fiap\\fasttech_1\\fasttech\\fasttechkitchen\\fastechkitchenapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{876CD956-7805-4A9D-8071-E9D2A95BDF20}|FastTechKitchen\\FasTechKitchenApi\\FasTechKitchen.Api.csproj|solutionrelative:fasttechkitchen\\fastechkitchenapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F03F123B-A4AE-4D76-962A-B1A07A904FC1}|FastTechCore\\src\\FastTech.Api\\FastTech.Api.csproj|c:\\pessoais-julio\\fiap\\fasttech_1\\fasttech\\fasttechcore\\src\\fasttech.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F03F123B-A4AE-4D76-962A-B1A07A904FC1}|FastTechCore\\src\\FastTech.Api\\FastTech.Api.csproj|solutionrelative:fasttechcore\\src\\fasttech.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> 1693d3103fd1115aafba91b5a672d2793639621a
     }
   ],
   "DocumentGroupContainers": [
@@ -415,67 +393,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< HEAD
-          "SelectedChildIndex": 5,
-=======
-          "SelectedChildIndex": 4,
->>>>>>> 1693d3103fd1115aafba91b5a672d2793639621a
+          "SelectedChildIndex": 7,
           "Children": [
             {
-              "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 5,
-              "Title": "PedidoMapper.cs",
-              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechKitchen\\FastTechKitchenApplication\\Mappings\\PedidoMapper.cs",
-              "RelativeDocumentMoniker": "FastTechKitchen\\FastTechKitchenApplication\\Mappings\\PedidoMapper.cs",
-              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechKitchen\\FastTechKitchenApplication\\Mappings\\PedidoMapper.cs",
-              "RelativeToolTip": "FastTechKitchen\\FastTechKitchenApplication\\Mappings\\PedidoMapper.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T23:40:11.5Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:1206080720:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1542716350:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "BaseService.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechKitchen\\FastTechKitchen.Domain\\Services\\BaseService.cs",
               "RelativeDocumentMoniker": "FastTechKitchen\\FastTechKitchen.Domain\\Services\\BaseService.cs",
               "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechKitchen\\FastTechKitchen.Domain\\Services\\BaseService.cs",
               "RelativeToolTip": "FastTechKitchen\\FastTechKitchen.Domain\\Services\\BaseService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-17T01:18:31.518Z",
               "EditorCaption": ""
-=======
-              "DocumentIndex": 3,
-              "Title": "FasTechKitchen.Api.csproj",
-              "DocumentMoniker": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\FastTechKitchen\\FasTechKitchenApi\\FasTechKitchen.Api.csproj",
-              "RelativeDocumentMoniker": "FastTechKitchen\\FasTechKitchenApi\\FasTechKitchen.Api.csproj",
-              "ToolTip": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\FastTechKitchen\\FasTechKitchenApi\\FasTechKitchen.Api.csproj",
-              "RelativeToolTip": "FastTechKitchen\\FasTechKitchenApi\\FasTechKitchen.Api.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-15T18:41:30.195Z"
->>>>>>> 1693d3103fd1115aafba91b5a672d2793639621a
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-<<<<<<< HEAD
-              "Title": "PedidoService.cs",
-              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechKitchen\\FastTechKitchen.Domain\\Services\\PedidoService.cs",
-              "RelativeDocumentMoniker": "FastTechKitchen\\FastTechKitchen.Domain\\Services\\PedidoService.cs",
-              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechKitchen\\FastTechKitchen.Domain\\Services\\PedidoService.cs",
-              "RelativeToolTip": "FastTechKitchen\\FastTechKitchen.Domain\\Services\\PedidoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T01:13:31.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "PedidoController.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechCore\\src\\FastTech.Api\\Controllers\\PedidoController.cs",
               "RelativeDocumentMoniker": "FastTechCore\\src\\FastTech.Api\\Controllers\\PedidoController.cs",
@@ -488,46 +439,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "PedidoConsumerService.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechKitchen\\FasTechKitchenApi\\Robots\\RabbitMQ\\PedidoConsumerService.cs",
               "RelativeDocumentMoniker": "FastTechKitchen\\FasTechKitchenApi\\Robots\\RabbitMQ\\PedidoConsumerService.cs",
               "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechKitchen\\FasTechKitchenApi\\Robots\\RabbitMQ\\PedidoConsumerService.cs",
               "RelativeToolTip": "FastTechKitchen\\FasTechKitchenApi\\Robots\\RabbitMQ\\PedidoConsumerService.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAIwDkAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAIwDYAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-16T22:40:07.82Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "PedidoApplicationService.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechKitchen\\FastTechKitchenApplication\\Services\\PedidoApplicationService.cs",
               "RelativeDocumentMoniker": "FastTechKitchen\\FastTechKitchenApplication\\Services\\PedidoApplicationService.cs",
               "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechKitchen\\FastTechKitchenApplication\\Services\\PedidoApplicationService.cs",
               "RelativeToolTip": "FastTechKitchen\\FastTechKitchenApplication\\Services\\PedidoApplicationService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAUwB0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-16T22:53:00.838Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "BaseRepository.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechKitchen\\FastTechKitchen.Infraestructure\\Data\\Repositories\\BaseRepository.cs",
               "RelativeDocumentMoniker": "FastTechKitchen\\FastTechKitchen.Infraestructure\\Data\\Repositories\\BaseRepository.cs",
               "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechKitchen\\FastTechKitchen.Infraestructure\\Data\\Repositories\\BaseRepository.cs",
               "RelativeToolTip": "FastTechKitchen\\FastTechKitchen.Infraestructure\\Data\\Repositories\\BaseRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAkwA8AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwBAAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-17T02:34:54.322Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PedidoItemCardapioApplicationService.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechKitchen\\FastTechKitchenApplication\\Services\\PedidoItemCardapioApplicationService.cs",
+              "RelativeDocumentMoniker": "FastTechKitchen\\FastTechKitchenApplication\\Services\\PedidoItemCardapioApplicationService.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechKitchen\\FastTechKitchenApplication\\Services\\PedidoItemCardapioApplicationService.cs",
+              "RelativeToolTip": "FastTechKitchen\\FastTechKitchenApplication\\Services\\PedidoItemCardapioApplicationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T22:47:50.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PedidoService.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechKitchen\\FastTechKitchen.Domain\\Services\\PedidoService.cs",
+              "RelativeDocumentMoniker": "FastTechKitchen\\FastTechKitchen.Domain\\Services\\PedidoService.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechKitchen\\FastTechKitchen.Domain\\Services\\PedidoService.cs",
+              "RelativeToolTip": "FastTechKitchen\\FastTechKitchen.Domain\\Services\\PedidoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T01:13:31.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "PedidoMapper.cs",
+              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechKitchen\\FastTechKitchenApplication\\Mappings\\PedidoMapper.cs",
+              "RelativeDocumentMoniker": "FastTechKitchen\\FastTechKitchenApplication\\Mappings\\PedidoMapper.cs",
+              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechKitchen\\FastTechKitchenApplication\\Mappings\\PedidoMapper.cs",
+              "RelativeToolTip": "FastTechKitchen\\FastTechKitchenApplication\\Mappings\\PedidoMapper.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T23:40:11.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Pedido.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechKitchen\\FastTechKitchen.Domain\\Entities\\Pedido.cs",
               "RelativeDocumentMoniker": "FastTechKitchen\\FastTechKitchen.Domain\\Entities\\Pedido.cs",
@@ -540,7 +530,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ItemCardapioService.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechCore\\src\\FastTech.Domain\\Services\\ItemCardapioService.cs",
               "RelativeDocumentMoniker": "FastTechCore\\src\\FastTech.Domain\\Services\\ItemCardapioService.cs",
@@ -553,7 +543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechKitchen\\FastTechKitchen.Domain\\Interfaces\\Infrastructure\\IRepository.cs",
               "RelativeDocumentMoniker": "FastTechKitchen\\FastTechKitchen.Domain\\Interfaces\\Infrastructure\\IRepository.cs",
@@ -566,7 +556,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ItemCardapioService.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechKitchen\\FastTechKitchen.Domain\\Services\\ItemCardapioService.cs",
               "RelativeDocumentMoniker": "FastTechKitchen\\FastTechKitchen.Domain\\Services\\ItemCardapioService.cs",
@@ -579,7 +569,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "PedidoItemCardapioService.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechKitchen\\FastTechKitchen.Domain\\Services\\PedidoItemCardapioService.cs",
               "RelativeDocumentMoniker": "FastTechKitchen\\FastTechKitchen.Domain\\Services\\PedidoItemCardapioService.cs",
@@ -592,7 +582,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "BasicPedido.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechKitchen\\FastTechKitchenApplication\\DataTransferObjects\\BasicPedido.cs",
               "RelativeDocumentMoniker": "FastTechKitchen\\FastTechKitchenApplication\\DataTransferObjects\\BasicPedido.cs",
@@ -605,7 +595,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "BasicPedido.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechCore\\src\\FastTech.Application\\DataTransferObjects\\BasicPedido.cs",
               "RelativeDocumentMoniker": "FastTechCore\\src\\FastTech.Application\\DataTransferObjects\\BasicPedido.cs",
@@ -618,7 +608,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "PedidoMapper.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechCore\\src\\FastTech.Application\\Mappings\\PedidoMapper.cs",
               "RelativeDocumentMoniker": "FastTechCore\\src\\FastTech.Application\\Mappings\\PedidoMapper.cs",
@@ -631,7 +621,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ItemCardapio.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechCore\\src\\FastTech.Domain\\Entities\\ItemCardapio.cs",
               "RelativeDocumentMoniker": "FastTechCore\\src\\FastTech.Domain\\Entities\\ItemCardapio.cs",
@@ -644,7 +634,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ItemCardapioApplicationService.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechCore\\src\\FastTech.Application\\Services\\ItemCardapioApplicationService.cs",
               "RelativeDocumentMoniker": "FastTechCore\\src\\FastTech.Application\\Services\\ItemCardapioApplicationService.cs",
@@ -657,7 +647,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechKitchen\\FasTechKitchenApi\\Program.cs",
               "RelativeDocumentMoniker": "FastTechKitchen\\FasTechKitchenApi\\Program.cs",
@@ -670,7 +660,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "BasicPedidoItemCardapio.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechKitchen\\FastTechKitchenApplication\\DataTransferObjects\\MessageBrokers\\BasicPedidoItemCardapio.cs",
               "RelativeDocumentMoniker": "FastTechKitchen\\FastTechKitchenApplication\\DataTransferObjects\\MessageBrokers\\BasicPedidoItemCardapio.cs",
@@ -683,7 +673,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "BasicPedidoItemCardapio.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechCore\\src\\FastTech.Application\\DataTransferObjects\\MessageBrokers\\BasicPedidoItemCardapio.cs",
               "RelativeDocumentMoniker": "FastTechCore\\src\\FastTech.Application\\DataTransferObjects\\MessageBrokers\\BasicPedidoItemCardapio.cs",
@@ -696,7 +686,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "BasicPedidoItemCardapio.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechCore\\src\\FastTech.Application\\DataTransferObjects\\BasicPedidoItemCardapio.cs",
               "RelativeDocumentMoniker": "FastTechCore\\src\\FastTech.Application\\DataTransferObjects\\BasicPedidoItemCardapio.cs",
@@ -709,7 +699,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "BasicPedidoItemCardapio.cs",
               "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechKitchen\\FastTechKitchenApplication\\DataTransferObjects\\BasicPedidoItemCardapio.cs",
               "RelativeDocumentMoniker": "FastTechKitchen\\FastTechKitchenApplication\\DataTransferObjects\\BasicPedidoItemCardapio.cs",
@@ -718,19 +708,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwBMAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-16T22:50:37.824Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "PedidoItemCardapioApplicationService.cs",
-              "DocumentMoniker": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechKitchen\\FastTechKitchenApplication\\Services\\PedidoItemCardapioApplicationService.cs",
-              "RelativeDocumentMoniker": "FastTechKitchen\\FastTechKitchenApplication\\Services\\PedidoItemCardapioApplicationService.cs",
-              "ToolTip": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechKitchen\\FastTechKitchenApplication\\Services\\PedidoItemCardapioApplicationService.cs",
-              "RelativeToolTip": "FastTechKitchen\\FastTechKitchenApplication\\Services\\PedidoItemCardapioApplicationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T22:47:50.625Z",
               "EditorCaption": ""
             },
             {
@@ -1678,65 +1655,6 @@
               "RelativeToolTip": "..\\MPCalcHub-MicroServices\\MPCalcHub-Personal\\src\\MPCalcHub.Api\\Authorization\\RolesAuthorizationHandler.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-01T23:42:09.896Z"
-=======
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\FastTechKitchen\\FasTechKitchenApi\\Program.cs",
-              "RelativeDocumentMoniker": "FastTechKitchen\\FasTechKitchenApi\\Program.cs",
-              "ToolTip": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\FastTechKitchen\\FasTechKitchenApi\\Program.cs",
-              "RelativeToolTip": "FastTechKitchen\\FasTechKitchenApi\\Program.cs",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAewI4AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T17:49:02.203Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\FastTechCore\\src\\FastTech.Api\\Program.cs",
-              "RelativeDocumentMoniker": "FastTechCore\\src\\FastTech.Api\\Program.cs",
-              "ToolTip": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\FastTechCore\\src\\FastTech.Api\\Program.cs",
-              "RelativeToolTip": "FastTechCore\\src\\FastTech.Api\\Program.cs",
-              "ViewState": "AgIAAJkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T17:48:49.754Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\FastTechKitchen\\FasTechKitchenApi\\Dockerfile",
-              "RelativeDocumentMoniker": "FastTechKitchen\\FasTechKitchenApi\\Dockerfile",
-              "ToolTip": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\FastTechKitchen\\FasTechKitchenApi\\Dockerfile",
-              "RelativeToolTip": "FastTechKitchen\\FasTechKitchenApi\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-07-15T03:45:35.85Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\FastTechCore\\src\\FastTech.Api\\Dockerfile",
-              "RelativeDocumentMoniker": "FastTechCore\\src\\FastTech.Api\\Dockerfile",
-              "ToolTip": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\FastTechCore\\src\\FastTech.Api\\Dockerfile",
-              "RelativeToolTip": "FastTechCore\\src\\FastTech.Api\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-07-15T03:20:15.034Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "docker-compose.yml",
-              "DocumentMoniker": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\docker-compose.yml",
-              "RelativeDocumentMoniker": "docker-compose.yml",
-              "ToolTip": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\docker-compose.yml",
-              "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2025-07-15T03:02:26.675Z"
->>>>>>> 1693d3103fd1115aafba91b5a672d2793639621a
             }
           ]
         }

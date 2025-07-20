@@ -5216,30 +5216,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\julio.ribeiro\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\MatheusBelliniCosta\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\FastTechKitchen\\FasTechKitchenApi\\FasTechKitchen.Api.csproj",
+      "projectUniqueName": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechKitchen\\FasTechKitchenApi\\FasTechKitchen.Api.csproj",
       "projectName": "FasTechKitchen.Api",
-      "projectPath": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\FastTechKitchen\\FasTechKitchenApi\\FasTechKitchen.Api.csproj",
-      "packagesPath": "C:\\Users\\julio.ribeiro\\.nuget\\packages\\",
-      "outputPath": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\FastTechKitchen\\FasTechKitchenApi\\obj\\",
+      "projectPath": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechKitchen\\FasTechKitchenApi\\FasTechKitchen.Api.csproj",
+      "packagesPath": "C:\\Users\\MatheusBelliniCosta\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechKitchen\\FasTechKitchenApi\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\julio.ribeiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\MatheusBelliniCosta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\ComponentOne.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\MESCIUS\\ComponentOne\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
@@ -5248,14 +5245,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\FastTechKitchen\\FastTechKitchen.Domain\\FastTechKitchen.Domain.csproj": {
-              "projectPath": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\FastTechKitchen\\FastTechKitchen.Domain\\FastTechKitchen.Domain.csproj"
+            "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechKitchen\\FastTechKitchen.Domain\\FastTechKitchen.Domain.csproj": {
+              "projectPath": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechKitchen\\FastTechKitchen.Domain\\FastTechKitchen.Domain.csproj"
             },
-            "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\FastTechKitchen\\FastTechKitchen.Infraestructure\\FastTechKitchen.Infraestructure.csproj": {
-              "projectPath": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\FastTechKitchen\\FastTechKitchen.Infraestructure\\FastTechKitchen.Infraestructure.csproj"
+            "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechKitchen\\FastTechKitchen.Infraestructure\\FastTechKitchen.Infraestructure.csproj": {
+              "projectPath": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechKitchen\\FastTechKitchen.Infraestructure\\FastTechKitchen.Infraestructure.csproj"
             },
-            "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\FastTechKitchen\\FastTechKitchenApplication\\FastTechKitchen.Application.csproj": {
-              "projectPath": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\FastTechKitchen\\FastTechKitchenApplication\\FastTechKitchen.Application.csproj"
+            "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechKitchen\\FastTechKitchenApplication\\FastTechKitchen.Application.csproj": {
+              "projectPath": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechKitchen\\FastTechKitchenApplication\\FastTechKitchen.Application.csproj"
             }
           }
         }
@@ -5269,8 +5266,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.300"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -5368,7 +5364,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

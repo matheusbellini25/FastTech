@@ -6193,30 +6193,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\julio.ribeiro\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\MatheusBelliniCosta\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\tests\\FastTech.Tests\\FastTech.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\FastTech.Tests.csproj",
       "projectName": "FastTech.Tests",
-      "projectPath": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\tests\\FastTech.Tests\\FastTech.Tests.csproj",
-      "packagesPath": "C:\\Users\\julio.ribeiro\\.nuget\\packages\\",
-      "outputPath": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\tests\\FastTech.Tests\\obj\\",
+      "projectPath": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\FastTech.Tests.csproj",
+      "packagesPath": "C:\\Users\\MatheusBelliniCosta\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\tests\\FastTech.Tests\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\julio.ribeiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\MatheusBelliniCosta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\ComponentOne.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\MESCIUS\\ComponentOne\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
@@ -6225,17 +6222,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\FastTechCore\\src\\FastTech.Api\\FastTech.Api.csproj": {
-              "projectPath": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\FastTechCore\\src\\FastTech.Api\\FastTech.Api.csproj"
+            "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechCore\\src\\FastTech.Api\\FastTech.Api.csproj": {
+              "projectPath": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechCore\\src\\FastTech.Api\\FastTech.Api.csproj"
             },
-            "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\FastTechCore\\src\\FastTech.Application\\FastTech.Application.csproj": {
-              "projectPath": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\FastTechCore\\src\\FastTech.Application\\FastTech.Application.csproj"
+            "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechCore\\src\\FastTech.Application\\FastTech.Application.csproj": {
+              "projectPath": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechCore\\src\\FastTech.Application\\FastTech.Application.csproj"
             },
-            "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\FastTechCore\\src\\FastTech.Domain\\FastTech.Domain.csproj": {
-              "projectPath": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\FastTechCore\\src\\FastTech.Domain\\FastTech.Domain.csproj"
+            "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechCore\\src\\FastTech.Domain\\FastTech.Domain.csproj": {
+              "projectPath": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechCore\\src\\FastTech.Domain\\FastTech.Domain.csproj"
             },
-            "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\FastTechCore\\src\\FastTech.Infrastructure\\FastTech.Infrastructure.csproj": {
-              "projectPath": "C:\\Pessoais-Julio\\FIAP\\FastTech_1\\FastTech\\FastTechCore\\src\\FastTech.Infrastructure\\FastTech.Infrastructure.csproj"
+            "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechCore\\src\\FastTech.Infrastructure\\FastTech.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\MatheusBelliniCosta\\Documents\\FastTech\\FastTechCore\\src\\FastTech.Infrastructure\\FastTech.Infrastructure.csproj"
             }
           }
         }
@@ -6249,8 +6246,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.300"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -6309,7 +6305,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
